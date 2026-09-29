@@ -1,0 +1,752 @@
+[
+  {
+    "sample": "ocr_073_1701",
+    "model": "base",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/ocr_073_1701_base.webp"
+  },
+  {
+    "sample": "ocr_073_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/ocr_073_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "ocr_073_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/ocr_073_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "ocr_073_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/ocr_073_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "ocr_073_1701",
+    "model": "velocity",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/ocr_073_1701_velocity.webp"
+  },
+  {
+    "sample": "pickscore_493_1701",
+    "model": "base",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/pickscore_493_1701_base.webp"
+  },
+  {
+    "sample": "pickscore_493_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/pickscore_493_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "pickscore_493_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/pickscore_493_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "pickscore_493_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/pickscore_493_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "pickscore_493_1701",
+    "model": "velocity",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/pickscore_493_1701_velocity.webp"
+  },
+  {
+    "sample": "geneval_079_1701",
+    "model": "base",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/geneval_079_1701_base.webp"
+  },
+  {
+    "sample": "geneval_079_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/geneval_079_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "geneval_079_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/geneval_079_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "geneval_079_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/geneval_079_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "geneval_079_1701",
+    "model": "velocity",
+    "paper_figure": "capability_comparison",
+    "asset": "assets/geneval_079_1701_velocity.webp"
+  },
+  {
+    "sample": "ocr_927_1701",
+    "model": "base",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_927_1701_base.webp"
+  },
+  {
+    "sample": "ocr_927_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_927_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "ocr_927_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_927_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "ocr_927_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_927_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "ocr_927_1701",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_927_1701_velocity.webp"
+  },
+  {
+    "sample": "ocr_244_1701",
+    "model": "base",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_244_1701_base.webp"
+  },
+  {
+    "sample": "ocr_244_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_244_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "ocr_244_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_244_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "ocr_244_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_244_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "ocr_244_1701",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_244_1701_velocity.webp"
+  },
+  {
+    "sample": "ocr_498_1701",
+    "model": "base",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_498_1701_base.webp"
+  },
+  {
+    "sample": "ocr_498_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_498_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "ocr_498_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_498_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "ocr_498_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_498_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "ocr_498_1701",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_ocr_1",
+    "asset": "assets/ocr_498_1701_velocity.webp"
+  },
+  {
+    "sample": "ocr_320_2903",
+    "model": "base",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_320_2903_base.webp"
+  },
+  {
+    "sample": "ocr_320_2903",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_320_2903_teacher_ocr.webp"
+  },
+  {
+    "sample": "ocr_320_2903",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_320_2903_teacher_pickscore.webp"
+  },
+  {
+    "sample": "ocr_320_2903",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_320_2903_teacher_geneval.webp"
+  },
+  {
+    "sample": "ocr_320_2903",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_320_2903_velocity.webp"
+  },
+  {
+    "sample": "ocr_1016_2903",
+    "model": "base",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_1016_2903_base.webp"
+  },
+  {
+    "sample": "ocr_1016_2903",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_1016_2903_teacher_ocr.webp"
+  },
+  {
+    "sample": "ocr_1016_2903",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_1016_2903_teacher_pickscore.webp"
+  },
+  {
+    "sample": "ocr_1016_2903",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_1016_2903_teacher_geneval.webp"
+  },
+  {
+    "sample": "ocr_1016_2903",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_1016_2903_velocity.webp"
+  },
+  {
+    "sample": "ocr_123_2903",
+    "model": "base",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_123_2903_base.webp"
+  },
+  {
+    "sample": "ocr_123_2903",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_123_2903_teacher_ocr.webp"
+  },
+  {
+    "sample": "ocr_123_2903",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_123_2903_teacher_pickscore.webp"
+  },
+  {
+    "sample": "ocr_123_2903",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_123_2903_teacher_geneval.webp"
+  },
+  {
+    "sample": "ocr_123_2903",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_ocr_2",
+    "asset": "assets/ocr_123_2903_velocity.webp"
+  },
+  {
+    "sample": "pickscore_1992_1701",
+    "model": "base",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1992_1701_base.webp"
+  },
+  {
+    "sample": "pickscore_1992_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1992_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "pickscore_1992_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1992_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "pickscore_1992_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1992_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "pickscore_1992_1701",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1992_1701_velocity.webp"
+  },
+  {
+    "sample": "pickscore_1282_1701",
+    "model": "base",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1282_1701_base.webp"
+  },
+  {
+    "sample": "pickscore_1282_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1282_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "pickscore_1282_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1282_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "pickscore_1282_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1282_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "pickscore_1282_1701",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_pickscore_1",
+    "asset": "assets/pickscore_1282_1701_velocity.webp"
+  },
+  {
+    "sample": "pickscore_292_2903",
+    "model": "base",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_292_2903_base.webp"
+  },
+  {
+    "sample": "pickscore_292_2903",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_292_2903_teacher_ocr.webp"
+  },
+  {
+    "sample": "pickscore_292_2903",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_292_2903_teacher_pickscore.webp"
+  },
+  {
+    "sample": "pickscore_292_2903",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_292_2903_teacher_geneval.webp"
+  },
+  {
+    "sample": "pickscore_292_2903",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_292_2903_velocity.webp"
+  },
+  {
+    "sample": "pickscore_317_2903",
+    "model": "base",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_317_2903_base.webp"
+  },
+  {
+    "sample": "pickscore_317_2903",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_317_2903_teacher_ocr.webp"
+  },
+  {
+    "sample": "pickscore_317_2903",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_317_2903_teacher_pickscore.webp"
+  },
+  {
+    "sample": "pickscore_317_2903",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_317_2903_teacher_geneval.webp"
+  },
+  {
+    "sample": "pickscore_317_2903",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_317_2903_velocity.webp"
+  },
+  {
+    "sample": "pickscore_2027_2903",
+    "model": "base",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_2027_2903_base.webp"
+  },
+  {
+    "sample": "pickscore_2027_2903",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_2027_2903_teacher_ocr.webp"
+  },
+  {
+    "sample": "pickscore_2027_2903",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_2027_2903_teacher_pickscore.webp"
+  },
+  {
+    "sample": "pickscore_2027_2903",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_2027_2903_teacher_geneval.webp"
+  },
+  {
+    "sample": "pickscore_2027_2903",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_pickscore_2",
+    "asset": "assets/pickscore_2027_2903_velocity.webp"
+  },
+  {
+    "sample": "geneval_244_1701",
+    "model": "base",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_244_1701_base.webp"
+  },
+  {
+    "sample": "geneval_244_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_244_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "geneval_244_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_244_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "geneval_244_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_244_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "geneval_244_1701",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_244_1701_velocity.webp"
+  },
+  {
+    "sample": "geneval_498_1701",
+    "model": "base",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_498_1701_base.webp"
+  },
+  {
+    "sample": "geneval_498_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_498_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "geneval_498_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_498_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "geneval_498_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_498_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "geneval_498_1701",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_498_1701_velocity.webp"
+  },
+  {
+    "sample": "geneval_320_1701",
+    "model": "base",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_320_1701_base.webp"
+  },
+  {
+    "sample": "geneval_320_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_320_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "geneval_320_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_320_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "geneval_320_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_320_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "geneval_320_1701",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_geneval_1",
+    "asset": "assets/geneval_320_1701_velocity.webp"
+  },
+  {
+    "sample": "geneval_123_2903",
+    "model": "base",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_123_2903_base.webp"
+  },
+  {
+    "sample": "geneval_123_2903",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_123_2903_teacher_ocr.webp"
+  },
+  {
+    "sample": "geneval_123_2903",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_123_2903_teacher_pickscore.webp"
+  },
+  {
+    "sample": "geneval_123_2903",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_123_2903_teacher_geneval.webp"
+  },
+  {
+    "sample": "geneval_123_2903",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_123_2903_velocity.webp"
+  },
+  {
+    "sample": "geneval_073_2903",
+    "model": "base",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_073_2903_base.webp"
+  },
+  {
+    "sample": "geneval_073_2903",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_073_2903_teacher_ocr.webp"
+  },
+  {
+    "sample": "geneval_073_2903",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_073_2903_teacher_pickscore.webp"
+  },
+  {
+    "sample": "geneval_073_2903",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_073_2903_teacher_geneval.webp"
+  },
+  {
+    "sample": "geneval_073_2903",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_073_2903_velocity.webp"
+  },
+  {
+    "sample": "geneval_079_2903",
+    "model": "base",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_079_2903_base.webp"
+  },
+  {
+    "sample": "geneval_079_2903",
+    "model": "teacher_ocr",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_079_2903_teacher_ocr.webp"
+  },
+  {
+    "sample": "geneval_079_2903",
+    "model": "teacher_pickscore",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_079_2903_teacher_pickscore.webp"
+  },
+  {
+    "sample": "geneval_079_2903",
+    "model": "teacher_geneval",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_079_2903_teacher_geneval.webp"
+  },
+  {
+    "sample": "geneval_079_2903",
+    "model": "velocity",
+    "paper_figure": "paired_gallery_geneval_2",
+    "asset": "assets/geneval_079_2903_velocity.webp"
+  },
+  {
+    "sample": "pickscore_1656_1701",
+    "model": "base",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/pickscore_1656_1701_base.webp"
+  },
+  {
+    "sample": "pickscore_1656_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/pickscore_1656_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "pickscore_1656_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/pickscore_1656_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "pickscore_1656_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/pickscore_1656_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "pickscore_1656_1701",
+    "model": "velocity",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/pickscore_1656_1701_velocity.webp"
+  },
+  {
+    "sample": "geneval_506_1701",
+    "model": "base",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/geneval_506_1701_base.webp"
+  },
+  {
+    "sample": "geneval_506_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/geneval_506_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "geneval_506_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/geneval_506_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "geneval_506_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/geneval_506_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "geneval_506_1701",
+    "model": "velocity",
+    "paper_figure": "specialist_comparison_2",
+    "asset": "assets/geneval_506_1701_velocity.webp"
+  },
+  {
+    "sample": "ocr_079_1701",
+    "model": "base",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/ocr_079_1701_base.webp"
+  },
+  {
+    "sample": "ocr_079_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/ocr_079_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "ocr_079_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/ocr_079_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "ocr_079_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/ocr_079_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "ocr_079_1701",
+    "model": "velocity",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/ocr_079_1701_velocity.webp"
+  },
+  {
+    "sample": "pickscore_1480_1701",
+    "model": "base",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/pickscore_1480_1701_base.webp"
+  },
+  {
+    "sample": "pickscore_1480_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/pickscore_1480_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "pickscore_1480_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/pickscore_1480_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "pickscore_1480_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/pickscore_1480_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "pickscore_1480_1701",
+    "model": "velocity",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/pickscore_1480_1701_velocity.webp"
+  },
+  {
+    "sample": "geneval_414_1701",
+    "model": "base",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/geneval_414_1701_base.webp"
+  },
+  {
+    "sample": "geneval_414_1701",
+    "model": "teacher_ocr",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/geneval_414_1701_teacher_ocr.webp"
+  },
+  {
+    "sample": "geneval_414_1701",
+    "model": "teacher_pickscore",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/geneval_414_1701_teacher_pickscore.webp"
+  },
+  {
+    "sample": "geneval_414_1701",
+    "model": "teacher_geneval",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/geneval_414_1701_teacher_geneval.webp"
+  },
+  {
+    "sample": "geneval_414_1701",
+    "model": "velocity",
+    "paper_figure": "specialist_comparison_3",
+    "asset": "assets/geneval_414_1701_velocity.webp"
+  }
+]
