@@ -1,16 +1,165 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="FlowMap-OPD separates native few-step sampling from teacher supervision to consolidate specialist capabilities."><title>FlowMap-OPD | On-Policy Distillation of Flow-Map Generators</title><link rel="stylesheet" href="styles.css?v=3"><script defer src="samples.js?v=3"></script><script defer src="app.js?v=3"></script></head>
-<body><a class="skip" href="#main">Skip to content</a><nav aria-label="Main navigation"><a class="brand" href="#">FlowMap-OPD</a><div><a href="#compare">Compare</a><a href="#method">Method</a><a href="#results">Results</a></div></nav>
-<main id="main"><header><p class="eyebrow">ON-POLICY DISTILLATION · FEW-STEP GENERATION</p><h1>FlowMap<span>-OPD</span></h1><p class="subtitle">Rollout–Kernel Separation for On-Policy Distillation<br>of Few-Step Flow-Map Generators</p><p class="authors"><a href="https://zhiqili-cg.github.io/">Zhiqi Li</a><a href="https://faculty.cc.gatech.edu/~bozhu/">Bo Zhu</a></p><p class="affiliation">Georgia Institute of Technology</p><div class="links"><a href="https://arxiv.org/html/2609.37851v1">Paper ↗</a><a href="https://github.com/ZhiqiLi-CG/Flowmap_OPD_source">Code ↗</a><a href="#compare">Explore comparisons ↓</a></div></header>
-<figure class="hero"><img src="assets/flowmap_opd_teaser.webp" alt="One student demonstrates visual preferences, text rendering and object relations, alongside specialist teacher outputs."><figcaption>Three specialist teachers. One few-step student.</figcaption></figure>
-<section class="intro"><div><p class="eyebrow">01 — OVERVIEW</p><h2>Native sampling.<br>Flexible supervision.</h2></div><p>FlowMap-OPD separates the native rollout that collects student states from the kernel used for teacher–student comparison. Flow–velocity consistency connects local supervision to the long-range map used for generation. This enables flow-map, induced-velocity and instantaneous-velocity supervision within one framework.</p></section>
-<section id="compare"><div class="section-heading"><div><p class="eyebrow">02 — INTERACTIVE COMPARISONS</p><h2>Explore the capabilities.</h2></div><p>One prompt, five models.<br>Select an example to compare specialists and student.</p></div><div class="explorer"><div class="explorer-top"><div class="task-tabs" role="group" aria-label="Task"><button data-task="ocr" class="active" aria-pressed="true">Text rendering <span>OCR</span></button><button data-task="pickscore" aria-pressed="false">Visual preferences <span>PickScore</span></button><button data-task="geneval" aria-pressed="false">Object relations <span>GenEval</span></button></div><div class="stepper"><button id="prev" aria-label="Previous example">←</button><span id="counter"></span><button id="next" aria-label="Next example">→</button></div></div>
-<div id="thumbnails" class="thumbnails" role="group" aria-label="Choose an example"></div>
-<div class="prompt-line"><span>PROMPT</span><p id="prompt"></p></div>
-<div class="comparison-toolbar"><fieldset id="models"><legend>Choose models</legend></fieldset><div class="view-tools"><button id="all">All models</button><div class="segmented" role="group" aria-label="Comparison view"><button id="grid-mode" class="active" aria-pressed="true">Side by side</button><button id="slider-mode" aria-pressed="false">Slide to compare</button></div></div></div>
-<div id="gallery" class="gallery" aria-live="polite"></div>
-<div id="slider-panel" hidden><div class="pair-controls"><label>Left <select id="left-model"></select></label><span>↔</span><label>Right <select id="right-model"></select></label></div><div class="image-compare"><img id="right-image" alt=""><div id="left-layer"><img id="left-image" alt=""></div><div id="divider"></div><span id="left-label" class="image-label"></span><span id="right-label" class="image-label"></span><input id="wipe" type="range" min="0" max="100" value="50" aria-label="Image comparison position"></div><p class="slider-hint">Drag to compare the same prompt and initial noise.</p></div></div>
-<p class="fine">Qualitative examples from the paper (student λ<sub>c</sub> = 0). The task scores below report the λ<sub>c</sub> = 0.001 student.</p><noscript><p>Enable JavaScript to select models and examples. The paper figures remain available below.</p></noscript></section>
-<section id="method"><div class="section-heading"><div><p class="eyebrow">03 — METHOD</p><h2>Separate rollout from supervision.</h2></div><p>The rollout supplies states.<br>The kernel defines the comparison.</p></div><div class="cards"><article><span>01 / ROLLOUT</span><h3>Collect student states</h3><p>Use the native few-step flow map to acquire states efficiently.</p></article><article><span>02 / SUPERVISION</span><h3>Choose the comparison</h3><p>Compare long-range maps, induced velocities or instantaneous velocities.</p></article><article><span>03 / CONSISTENCY</span><h3>Connect the representations</h3><p>Control teacher-velocity matching and student consistency separately.</p></article></div></section>
-<section id="results"><div class="section-heading"><div><p class="eyebrow">04 — RESULTS</p><h2>Three specialists. One student.</h2></div><p>Capabilities consolidated in 300 training steps.<br>Results use λ<sub>c</sub> = 0.001.</p></div><div class="results-layout"><div class="score-panel"><div class="score-heading"><span>THREE-SPECIALIST CONSOLIDATION</span><span>Higher is better ↗</span></div><div class="table-scroll"><table><thead><tr><th>Model</th><th><small>Object relations</small>GenEval</th><th><small>Text rendering</small>OCR</th><th><small>Visual preferences</small>PickScore</th></tr></thead><tbody><tr><th><span class="model-dot base-dot"></span>Base</th><td>0.5041</td><td>0.3491</td><td>20.9758</td></tr><tr><th><span class="model-dot teacher-dot"></span>Specialist teacher<small>Corresponding task</small></th><td>0.8454</td><td>0.8504</td><td>23.0772</td></tr><tr class="ours"><th><span class="model-dot student-dot"></span>FlowMap-OPD<small>One student · 300 steps</small></th><td>0.8580</td><td>0.8830</td><td>23.1502</td></tr></tbody></table></div></div><figure><img loading="lazy" src="assets/three_teacher_curves.webp" alt="OCR and PickScore learning curves for the consistency 0.001 student"><figcaption>Recorded task evaluations; dashed lines show the corresponding specialist teachers.</figcaption></figure></div><div class="imagenet-heading"><h3>Cross-capacity transfer on ImageNet</h3><span>XL/2 → B/2</span></div><p>Distilling XL/2 teachers into B/2 students explores the supervision design space. Under the MMD reward, instantaneous velocity supervision with λ<sub>c</sub> = 0.01 reduces four-step FID from 22.68 to 18.23.</p><figure><img loading="lazy" src="assets/imagenet_three_rewards.webp" alt="ImageNet training curves under MMD, classifier and DINO teacher rewards"><figcaption>ImageNet experiments from the paper. FID uses 5,000 generated images and 2,000 held-out reference images from classes 0–99.</figcaption></figure></section>
-</main><dialog id="lightbox"><button id="close-lightbox" aria-label="Close image">×</button><img id="lightbox-image" alt=""><p id="lightbox-caption"></p></dialog><footer><span>FlowMap-OPD · Zhiqi Li &amp; Bo Zhu</span><a href="mailto:zli3167@gatech.edu">Contact</a><a href="#">Back to top ↑</a></footer></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlowMap-OPD</title>
+<meta name="description" content="FlowMap-OPD: on-policy distillation for few-step flow-map generators that separates native few-step rollouts from the teacher–student comparison.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="FlowMap-OPD: Rollout–Kernel Separation for On-Policy Distillation of Few-Step Flow-Map Generators">
+<meta property="og:description" content="On-policy distillation for few-step flow-map generators: native rollouts, flexible teacher–student supervision.">
+<meta property="og:url" content="https://zhiqili-cg.github.io/Flowmap_OPD_project/">
+<meta property="og:image" content="https://zhiqili-cg.github.io/Flowmap_OPD_project/assets/flowmap_opd_teaser.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700|Noto+Sans:400,400i,700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+<link rel="stylesheet" href="styles.css?v=4">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js" onload="renderMathInElement(document.body,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}]})"></script>
+<script defer src="samples.js?v=4"></script>
+<script defer src="app.js?v=4"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<main id="main">
+
+<header class="hero">
+ <div class="container">
+  <h1 class="publication-title">FlowMap-OPD: Rollout–Kernel Separation for On-Policy Distillation of Few-Step Flow-Map Generators</h1>
+  <p class="authors">
+   <span class="author"><a href="https://zhiqili-cg.github.io/">Zhiqi Li</a></span>
+   <span class="author"><a href="https://faculty.cc.gatech.edu/~bozhu/">Bo Zhu</a></span>
+  </p>
+  <p class="affiliation">Georgia Institute of Technology</p>
+  <div class="links">
+   <a class="button" href="https://arxiv.org/pdf/2609.37851"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.8L18.2 9H13V3.8zM8 12.5h8V14H8v-1.5zm0 3h8V17H8v-1.5zm0-6h3V11H8V9.5z"/></svg>Paper</a>
+   <a class="button" href="https://arxiv.org/abs/2609.37851"><i class="ai ai-arxiv" aria-hidden="true"></i>arXiv</a>
+   <a class="button" href="https://github.com/ZhiqiLi-CG/Flowmap_OPD_source"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>Code</a>
+  </div>
+ </div>
+</header>
+
+<div class="teaser">
+ <div class="container">
+  <figure>
+   <img src="assets/flowmap_opd_teaser.webp" width="3231" height="1465" alt="One few-step student generating PickScore, OCR and GenEval prompts, beside the corresponding specialist teachers.">
+   <p class="tldr"><strong>FlowMap-OPD</strong> collects states with a few-step flow map's native sampler, supervises it through a separate teacher–student comparison, and consolidates three specialist teachers into one few-step student.</p>
+   <figcaption>Images labelled “Ours” come from one FlowMap-OPD student. The bottom-right row shows the PickScore, OCR and GenEval specialist teachers on the same prompts.</figcaption>
+  </figure>
+ </div>
+</div>
+
+<section id="abstract">
+ <div class="container">
+  <h2>Abstract</h2>
+  <div class="narrow justify">
+   <p>Few-step flow-map generators, including MeanFlow and consistency models, enable efficient sampling through long-range transport, yet their on-policy distillation remains underexplored. We introduce <strong>FlowMap-OPD</strong>, an on-policy distillation framework that separates student-state acquisition from teacher–student distribution comparison. A formulation based on state marginals establishes this separation, while flow–velocity consistency connects local supervision to the deployed long-range map. Within this framework, we develop flow-map, induced-velocity, and instantaneous-velocity distribution supervision, each paired with a separately specified native flow-map rollout. Cross-capacity ImageNet experiments across three teacher rewards identify instantaneous-velocity distribution supervision with independently tunable student consistency as the most effective choice. In text-to-image experiments, FlowMap-OPD demonstrates strong multi-specialist consolidation capabilities and surpasses multi-reward Flow-Map GRPO in task performance and convergence speed.</p>
+  </div>
+ </div>
+</section>
+
+<section class="band" id="comparison">
+ <div class="container">
+  <h2>Qualitative Comparison</h2>
+  <p class="viewer-intro">The base model, the three specialist teachers and the FlowMap-OPD student, with the same prompt, initial noise and few-step sampler. Choose a task and an example.</p>
+  <div class="controls">
+   <div class="seg col-sm" role="group" aria-label="Task"><button type="button" data-task="ocr" class="active" aria-pressed="true">Text rendering (OCR)</button><button type="button" data-task="pickscore" aria-pressed="false">Visual preference (PickScore)</button><button type="button" data-task="geneval" aria-pressed="false">Object relations (GenEval)</button></div>
+  </div>
+  <div id="stage" class="stage scroll-sm" style="--cols:5" aria-live="polite"></div>
+  <p id="prompt" class="prompt"></p>
+  <div class="strip"><button type="button" class="arrow" id="prev" aria-label="Previous example">&#8249;</button><div id="thumbs" class="thumbs" role="group" aria-label="Examples"></div><button type="button" class="arrow" id="next" aria-label="Next example">&#8250;</button></div>
+  <p id="counter" class="counter"></p>
+  <p class="note">Examples from the paper's appendix (student with \(\lambda_c=0\)); the scores under Results use \(\lambda_c=0.001\). The specialist for the selected task and the student are shown in bold, the student also with a blue outline. Click an image to enlarge.</p>
+  <noscript><p class="note">Enable JavaScript to browse the examples.</p></noscript>
+ </div>
+</section>
+
+<section id="method">
+ <div class="container">
+  <h2>Method</h2>
+  <div class="fig-row stack-sm" style="--n:3">
+   <figure><img loading="lazy" src="assets/separation_overview_1.webp" width="1000" height="721" alt="Flow or diffusion OPD: the same local SDE transitions are used for rollout and teacher–student comparison"><figcaption>(1) Flow/diffusion OPD</figcaption></figure>
+   <figure><img loading="lazy" src="assets/separation_overview_2.webp" width="1000" height="721" alt="FlowMap-OPD rollout: states collected with long-range flow-map jumps that preserve the marginals"><figcaption>(2) FlowMap-OPD rollout</figcaption></figure>
+   <figure><img loading="lazy" src="assets/separation_overview_3.webp" width="1000" height="721" alt="FlowMap-OPD optimization: teacher–student KL with means from velocities, flow maps or induced velocities"><figcaption>(3) FlowMap-OPD optimization</figcaption></figure>
+  </div>
+  <p class="fig-caption">From local-transition OPD to few-step flow-map OPD. (1) Flow/diffusion OPD uses the same local SDE transitions for rollout and teacher–student comparison. (2) FlowMap-OPD collects states with long-range map rollouts \(x_{t_{i+1}}=\psi^\theta_{t_i\to t_{i+1}}(x_{t_i})\). (3) Independently of the rollout, optimization compares teacher and student through \(\mathrm{KL}(\mathcal N(\mu^\theta,\Sigma)\,\|\,\mathcal N(\mu^T,\Sigma))\), with means built from instantaneous velocities, flow maps or induced velocities.</p>
+  <div class="narrow">
+   <h3>Rollout–kernel separation</h3>
+   <p class="justify">On-policy distillation compares teacher and student at states that the student itself visits. FlowMap-OPD rewrites the additive local objective as teacher–student comparisons over the joint distribution of student-generated states and comparison times. For a fixed local comparison and time weighting, the expected objective depends on these state marginals and comparison-time distributions, not on the full cross-time coupling of the rollout. This separates two roles: the <strong>rollout</strong> provides training states, and a compatible <strong>optimization kernel</strong> defines the teacher–student comparison at those states.</p>
+   <h3>Supervision through a different representation</h3>
+   <p class="justify">The student collects states with its native few-step flow map. At those states, FlowMap-OPD supports flow-map, induced-velocity and instantaneous-velocity distribution supervision. Flow–velocity consistency connects local velocity supervision to the long-range map used for generation, and its weight \(\lambda_c\) is set independently of teacher matching. Instantaneous-velocity supervision with separately tunable consistency is the most effective choice in our experiments.</p>
+  </div>
+ </div>
+</section>
+
+<section id="results">
+ <div class="container">
+  <h2>Results</h2>
+  <div class="narrow">
+   <h3>Multi-specialist consolidation</h3>
+   <p class="justify">Three specialist teachers for GenEval, OCR and PickScore, each post-trained with Flow-Map GRPO, are distilled into one five-step MeanFlow student built on FLUX.1-lite. After 300 updates with instantaneous-velocity supervision (\(\lambda_c=0.001\)), the single student exceeds every specialist on its own benchmark, with the same number of sampling steps.</p>
+  </div>
+  <div class="table-wrap">
+   <p class="tcap">Table 1. Three specialist teachers distilled into one five-step student (higher is better).</p>
+   <table>
+    <thead><tr><th>Model</th><th>GenEval</th><th>OCR</th><th>PickScore</th></tr></thead>
+    <tbody>
+     <tr><th>Base</th><td>0.5041</td><td>0.3491</td><td>20.9758</td></tr>
+     <tr class="rule"><th>GenEval teacher</th><td>0.8454</td><td class="dim">–</td><td class="dim">–</td></tr>
+     <tr><th>OCR teacher</th><td class="dim">–</td><td>0.8504</td><td class="dim">–</td></tr>
+     <tr><th>PickScore teacher</th><td class="dim">–</td><td class="dim">–</td><td>23.0772</td></tr>
+     <tr class="ours rule"><th>FlowMap-OPD (one student)</th><td>0.8580</td><td>0.8830</td><td>23.1502</td></tr>
+    </tbody>
+   </table>
+  </div>
+  <figure class="fig-medium">
+   <img loading="lazy" src="assets/three_teacher_curves.webp" width="1401" height="865" alt="OCR and PickScore of the student during training, approaching and passing the specialist teachers">
+   <figcaption>OCR and PickScore of the student during training. Dashed lines mark the corresponding specialist teachers.</figcaption>
+  </figure>
+  <div class="narrow">
+   <h3>Comparison with mixed-reward Flow-Map GRPO</h3>
+   <p class="justify">Given OCR and PickScore specialists, we compare two-teacher OPD with optimizing both rewards directly through multi-reward Flow-Map GRPO, using the same MeanFlow backbone, prompt mixture and five-step rollouts. OPD reaches OCR 0.8629 and PickScore 23.1677 at update 300, while GRPO reaches 0.8158 and 22.9825 at update 1,400. OPD already exceeds these GRPO scores at update 200.</p>
+  </div>
+  <figure class="fig-medium">
+   <img loading="lazy" src="assets/two_teacher_grpo_comparison.webp" width="1224" height="738" alt="Training curves: two-teacher OPD reaches higher OCR and PickScore in far fewer updates than mixed-reward Flow-Map GRPO">
+   <figcaption>OCR and PickScore during training for two-teacher OPD and mixed-reward Flow-Map GRPO (equal reward weights). Dashed lines mark the task specialists.</figcaption>
+  </figure>
+  <div class="narrow">
+   <h3>Cross-capacity transfer on ImageNet</h3>
+   <p class="justify">We distill XL/2 teachers into B/2 students under three teacher rewards and compare twelve supervision configurations for each. Instantaneous-velocity supervision with \(\lambda_c=0.01\) is the most effective overall; under the MMD reward it reduces four-step FID from 22.68 to 18.23.</p>
+  </div>
+  <figure>
+   <img loading="lazy" src="assets/imagenet_three_rewards.webp" width="2001" height="695" alt="ImageNet training curves under MMD, classifier and DINO teacher rewards for different supervision choices">
+   <figcaption>XL/2-to-B/2 distillation under MMD, classifier and DINO teacher rewards. FID uses 5,000 generated images and 2,000 held-out reference images from classes 0–99.</figcaption>
+  </figure>
+ </div>
+</section>
+
+<section id="related">
+ <div class="container narrow">
+  <h2>Related Project</h2>
+  <ul class="related">
+   <li><a href="https://zhiqili-cg.github.io/FlowMap-GRPO-Project/"><strong>Flow-Map GRPO</strong></a>: online reinforcement learning for few-step flow-map generators. Its stochastic flow-map kernels provide FlowMap-OPD's flow-map supervision, and it trains the specialist teachers used here.</li>
+  </ul>
+ </div>
+</section>
+
+<section id="bibtex">
+ <div class="container">
+  <h2>BibTeX</h2>
+  <div class="bib"><button id="copy-bib" type="button">Copy</button><pre><code id="bib">@article{li2026flowmapopd,
+  title   = {FlowMap-OPD: Rollout--Kernel Separation for On-Policy Distillation of Few-Step Flow-Map Generators},
+  author  = {Li, Zhiqi and Zhu, Bo},
+  journal = {arXiv preprint arXiv:2609.37851},
+  year    = {2026}
+}</code></pre></div>
+ </div>
+</section>
+
+</main>
+<dialog id="lightbox"><button id="close-lightbox" type="button" aria-label="Close image">&times;</button><img id="lightbox-image" alt=""><p id="lightbox-caption"></p></dialog>
+<footer><div class="container"><p>FlowMap-OPD · Georgia Institute of Technology · <a href="mailto:zli3167@gatech.edu">zli3167@gatech.edu</a></p></div></footer>
+</body>
+</html>
