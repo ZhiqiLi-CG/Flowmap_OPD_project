@@ -30,9 +30,9 @@
   const G = window.GALLERY; if (!G) return;
   const MODELS = {
     base: 'Base', ocr: 'OCR teacher', pick: 'PickScore teacher', geneval: 'GenEval teacher',
-    grpo: 'FlowMap-GRPO', nft: 'MeanFlowNFT', opd: 'FlowMap-OPD'
+    opd: 'FlowMap-OPD'
   };
-  const SUB = { grpo: '3 rewards', nft: '3 rewards' };
+  const SUB = {};
   const SPECIALIST = { ocr: 'ocr', pickscore: 'pick', geneval: 'geneval' };
   const BB = { flux: 'FLUX.1', sd35: 'SD3.5-Medium' };
   const TASK = { ocr: 'Text rendering', pickscore: 'Visual preference', geneval: 'Object relations' };

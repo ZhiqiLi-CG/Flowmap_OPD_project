@@ -11,8 +11,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ],
     "lc": "0.001"
@@ -197,8 +195,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ],
     "lc": "0.001"
@@ -370,8 +366,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ],
     "lc": "0.001"
@@ -558,8 +552,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -572,8 +564,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -586,8 +576,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -600,8 +588,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -614,8 +600,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -628,8 +612,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -642,8 +624,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -656,8 +636,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -670,8 +648,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -684,8 +660,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -698,8 +672,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -712,8 +684,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -726,8 +696,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -740,8 +708,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -754,8 +720,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    }
@@ -770,8 +734,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -784,8 +746,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -798,8 +758,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -812,8 +770,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -826,8 +782,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -840,8 +794,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -854,8 +806,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -868,8 +818,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -882,8 +830,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -896,8 +842,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -910,8 +854,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -924,8 +866,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -938,8 +878,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -952,8 +890,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    }
@@ -968,8 +904,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -982,8 +916,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -996,8 +928,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1010,8 +940,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1024,8 +952,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1038,8 +964,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1052,8 +976,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1066,8 +988,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1080,8 +1000,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1094,8 +1012,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1108,8 +1024,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1122,8 +1036,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1136,8 +1048,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    },
@@ -1150,8 +1060,6 @@ window.GALLERY = {
      "ocr",
      "pick",
      "geneval",
-     "grpo",
-     "nft",
      "opd"
     ]
    }

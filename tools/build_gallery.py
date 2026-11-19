@@ -61,7 +61,7 @@ for task, ids in FLUX.items():
     for sid in ids:
         pid, seed = sid.rsplit("_", 1); cols = ["base", "ocr", "pick", "geneval"]; src = {m: QUAL / sid / f"{FXM[m]}.png" for m in cols}
         if (X3 / f"{sid}_grpo3.png").exists():
-            cols += ["grpo", "nft"]; src["grpo"] = X3 / f"{sid}_grpo3.png"; src["nft"] = X3 / f"{sid}_mfnft3.png"
+            pass  # the reward-trained columns are not shown on the page
         main = (STU / f"{sid}_velocity.png").exists()
         cols.append("opd"); src["opd"] = STU / f"{sid}_velocity.png" if main else QUAL / sid / "velocity.png"
         for m in cols:

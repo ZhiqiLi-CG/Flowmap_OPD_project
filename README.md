@@ -21,8 +21,8 @@ row's prompt and seed, re-encoded as WebP.
 
 | Backbone | Text rendering | Visual preference | Object relations | Columns |
 |---|---|---|---|---|
-| FLUX.1 | 14 | 13 | 14 | base, three specialists, student (+ FlowMap-GRPO and MeanFlowNFT on three rewards for three rows) |
-| SD3.5-Medium | 15 | 14 | 14 | base, three specialists, FlowMap-GRPO, MeanFlowNFT, student |
+| FLUX.1 | 14 | 13 | 14 | base, three specialists, student |
+| SD3.5-Medium | 15 | 14 | 14 | base, three specialists, student |
 
 The student wall near the top reuses 24 student images of the gallery. Link to a gallery state with
 `?backbone=flux|sd35&task=ocr|pickscore|geneval&i=N` (add `&lightbox=opd` to open an image, `&focus=gallery` to show
