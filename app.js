@@ -26,6 +26,9 @@
     b.textContent = 'Copied'; setTimeout(() => { b.textContent = 'Copy'; }, 1600);
   });
 
+  const q = new URLSearchParams(location.search);
+  if (q.get('open') === 'all') $$('details.fold').forEach(d => { d.open = true; });   /* testing aid: unfold everything */
+
   /* ---------- gallery ---------- */
   const G = window.GALLERY; if (!G) return;
   const MODELS = {
@@ -40,7 +43,6 @@
   const src = (bb, s, m) => 'assets/gallery/' + bb + '/' + s.id + '_' + m + '.webp';
   const role = (task, m) => m === 'opd' ? 'student' : (m === SPECIALIST[task] ? 'specialist' : '');
 
-  const q = new URLSearchParams(location.search);
   const st = { bb: G[q.get('backbone')] ? q.get('backbone') : 'flux', task: 'ocr', i: 0 };
   if (TASK[q.get('task')]) st.task = q.get('task');
   const list = () => G[st.bb][st.task];
@@ -145,15 +147,6 @@
       b.addEventListener('click', () => { setView(w.bb, w.task, w.i); $('#gallery').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
       wall.append(b);
     });
-  }
-
-  /* ---------- section nav highlight ---------- */
-  const links = $$('.navlinks a');
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver(es => es.forEach(e => {
-      if (e.isIntersecting) links.forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id));
-    }), { rootMargin: '-45% 0px -50% 0px' });
-    links.forEach(a => { const t = $(a.getAttribute('href')); if (t) io.observe(t); });
   }
 
   syncControls(); renderThumbs(); renderStage(); markThumb(false);

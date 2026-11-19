@@ -7,6 +7,13 @@ GitHub Pages: deploy from the `main` branch, `/ (root)` directory. No build step
 
 Preview locally: `python3 -m http.server 8000`.
 
+## Layout
+
+Visual-first, classic project-page scale (same design system as the FlowMap-GRPO page): hero and teaser, stat tiles,
+student wall, folded abstract, gallery, method panels with folded details, result charts, then every table in one
+folded "Tables" block, related project, BibTeX. Text and tables live in `<details class="fold">`; `?open=all` unfolds
+them all (for checking or printing).
+
 ## Editing
 
 - **Title and authors**: the block marked `PAPER HEADER` in `index.html`. The BibTeX entry is generated from it (`data-bib-title`, `data-bib` attributes); the `<title>` and `og:title` lines in the head repeat the title.

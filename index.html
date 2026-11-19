@@ -16,39 +16,22 @@
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@1,8..60,500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&amp;family=Noto+Sans:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
-<link rel="stylesheet" href="styles.css?v=6">
+<link rel="stylesheet" href="styles.css?v=7">
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js" onload="renderMathInElement(document.body,{delimiters:[{left:'\\[',right:'\\]',display:true},{left:'\\(',right:'\\)',display:false}]})"></script>
-<script defer src="samples.js?v=6"></script>
-<script defer src="app.js?v=6"></script>
+<script defer src="samples.js?v=7"></script>
+<script defer src="app.js?v=7"></script>
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
-
-<nav class="topnav" aria-label="Sections">
- <div class="wrap topnav-in">
-  <a class="brand" href="#top">FlowMap-OPD</a>
-  <div class="navlinks">
-   <a href="#method">Method</a>
-   <a href="#results">Results</a>
-   <a href="#gallery">Gallery</a>
-   <a href="#bibtex">BibTeX</a>
-  </div>
-  <div class="navcta">
-   <a href="https://arxiv.org/abs/2609.37851">arXiv</a>
-   <a href="https://github.com/ZhiqiLi-CG/Flowmap_OPD_source">Code</a>
-  </div>
- </div>
-</nav>
 
 <main id="main">
 
 <header class="hero" id="top">
  <div class="wrap">
   <!-- ===================== PAPER HEADER: edit title and authors here ===================== -->
-  <h1 id="paper-title" data-bib-title="FlowMap-OPD: On-Policy Distillation for Few-Step Flow-Map Generators"><span class="t1">FlowMap-OPD</span><span class="t2">On-Policy Distillation for Few-Step Flow-Map Generators</span></h1>
+  <h1 id="paper-title" data-bib-title="FlowMap-OPD: On-Policy Distillation for Few-Step Flow-Map Generators">FlowMap-OPD: On-Policy Distillation for Few-Step Flow-Map Generators</h1>
   <p class="authors" id="paper-authors">
    <span class="author" data-bib="Li, Zhiqi"><a href="https://zhiqili-cg.github.io/">Zhiqi Li</a><sup>1</sup></span>
    <span class="author" data-bib="Wan, Cheng">Cheng Wan<sup>2</sup></span>
@@ -57,11 +40,11 @@
   <p class="affil"><span><sup>1</sup>Georgia Institute of Technology</span><span><sup>2</sup>Cornell University</span></p>
   <!-- ===================== END PAPER HEADER ===================== -->
   <div class="links">
-   <a class="btn primary" href="https://arxiv.org/pdf/2609.37851"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.8L18.2 9H13V3.8zM8 12.5h8V14H8v-1.5zm0 3h8V17H8v-1.5zm0-6h3V11H8V9.5z"/></svg>Paper</a>
-   <a class="btn" href="https://arxiv.org/abs/2609.37851"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l6.2 8.6L4.6 21h2.7l5.2-7.5L17.9 21H21l-6.6-9.2L20.6 3h-2.7l-4.8 6.9L8.1 3H5z"/></svg>arXiv 2609.37851</a>
+   <a class="btn" href="https://arxiv.org/pdf/2609.37851"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.8L18.2 9H13V3.8zM8 12.5h8V14H8v-1.5zm0 3h8V17H8v-1.5zm0-6h3V11H8V9.5z"/></svg>Paper</a>
+   <a class="btn" href="https://arxiv.org/abs/2609.37851"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l6.2 8.6L4.6 21h2.7l5.2-7.5L17.9 21H21l-6.6-9.2L20.6 3h-2.7l-4.8 6.9L8.1 3H5z"/></svg>arXiv</a>
    <a class="btn" href="https://github.com/ZhiqiLi-CG/Flowmap_OPD_source"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>Code</a>
   </div>
-  <blockquote class="rule">Sample with the flow map, learn the velocity.</blockquote>
+  <p class="lede"><b>FlowMap-OPD</b> consolidates several specialist teachers into one few-step flow-map student: sample with the flow map, learn the velocity.</p>
  </div>
  <div class="wrap wide">
   <figure class="teaser">
@@ -92,10 +75,48 @@
  </div>
 </section>
 
-<section class="band" id="abstract">
+<section id="abstract" class="slim">
  <div class="wrap narrow">
-  <h2>Abstract</h2>
-  <p>Few-step flow-map generators, such as MeanFlow and consistency models, sample in a few long-range jumps. On-policy distillation (OPD) trains a student on states drawn from its own sampler, but existing methods compare teacher and student through the local stochastic transitions of a multi-step sampler, which a flow-map student never deploys. We present FlowMap-OPD, the first systematic study of OPD for flow-map students. It separates state collection from supervision: the student collects states with its native few-step sampler, while the teacher supervises the flow map, velocities induced from it, or the instantaneous velocity linked to the map by a separately weighted consistency penalty. We find that instantaneous-velocity supervision with a small consistency weight, our chosen form, transfers the teacher's gains best, whereas supervising the deployed map, although the natural choice, transfers them worst when teacher and student start from different pretrained models. This gives a counter-intuitive rule: <em>sample with the flow map, learn the velocity</em>. As a further benefit, this form applies to any teacher that defines a velocity, including multi-step ones, and to students initialized from multi-step models. On FLUX and SD3.5, a single few-step student consolidates three specialist teachers within 300 updates, matches or exceeds each on its own benchmark (e.g., OCR 0.883 versus 0.850 on FLUX), and outperforms both multi-reward reinforcement learning and LoRA merging.</p>
+  <details class="fold">
+   <summary>Abstract</summary>
+   <p>Few-step flow-map generators, such as MeanFlow and consistency models, sample in a few long-range jumps. On-policy distillation (OPD) trains a student on states drawn from its own sampler, but existing methods compare teacher and student through the local stochastic transitions of a multi-step sampler, which a flow-map student never deploys. We present FlowMap-OPD, the first systematic study of OPD for flow-map students. It separates state collection from supervision: the student collects states with its native few-step sampler, while the teacher supervises the flow map, velocities induced from it, or the instantaneous velocity linked to the map by a separately weighted consistency penalty. We find that instantaneous-velocity supervision with a small consistency weight, our chosen form, transfers the teacher's gains best, whereas supervising the deployed map, although the natural choice, transfers them worst when teacher and student start from different pretrained models. This gives a counter-intuitive rule: <em>sample with the flow map, learn the velocity</em>. As a further benefit, this form applies to any teacher that defines a velocity, including multi-step ones, and to students initialized from multi-step models. On FLUX and SD3.5, a single few-step student consolidates three specialist teachers within 300 updates, matches or exceeds each on its own benchmark (e.g., OCR 0.883 versus 0.850 on FLUX), and outperforms both multi-reward reinforcement learning and LoRA merging.</p>
+  </details>
+ </div>
+</section>
+
+<section class="band" id="gallery">
+ <div class="wrap wide">
+  <div class="sechead">
+   <h2>Gallery</h2>
+   <p>Within a row, every model receives the same prompt, the same initial noise and the same few-step sampler. <span class="key gold">Gold</span> marks the specialist trained for the row's task, <span class="key green">green</span> the FlowMap-OPD student. Selected examples.</p>
+  </div>
+  <div class="controls">
+   <div class="seg" role="group" aria-label="Backbone">
+    <button type="button" data-bb="flux" aria-pressed="true">FLUX.1</button>
+    <button type="button" data-bb="sd35" aria-pressed="false">SD3.5-Medium</button>
+   </div>
+   <div class="seg" role="group" aria-label="Task">
+    <button type="button" data-task="ocr" aria-pressed="true">Text rendering</button>
+    <button type="button" data-task="pickscore" aria-pressed="false">Visual preference</button>
+    <button type="button" data-task="geneval" aria-pressed="false">Object relations</button>
+   </div>
+  </div>
+  <div class="viewer">
+   <div class="promptbar">
+    <p id="g-prompt" class="prompt" aria-live="polite"></p>
+    <p id="g-meta" class="meta"></p>
+   </div>
+   <div class="stage-scroll" tabindex="0" role="group" aria-label="Model outputs for the selected example">
+    <div id="g-stage" class="stage"></div>
+   </div>
+   <div class="strip">
+    <button type="button" class="arrowbtn" id="g-prev" aria-label="Previous example"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div id="g-thumbs" class="thumbs" role="group" aria-label="Examples"></div>
+    <button type="button" class="arrowbtn" id="g-next" aria-label="Next example"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+   </div>
+  </div>
+  <p class="fine">Columns: the base, the three specialists and the FlowMap-OPD student. Images are the unmodified 512 × 512 outputs. Use ← → to step through examples; select an image to enlarge it.</p>
+  <noscript><p class="fine">Enable JavaScript to browse the examples.</p></noscript>
  </div>
 </section>
 
@@ -110,17 +131,13 @@
    <figure><div class="plate"><img loading="lazy" src="assets/separation_overview_2.webp" width="1400" height="1010" alt="FlowMap-OPD rollout: states collected with the student's native long-range map; no gradient flows through the rollout."></div><figcaption><b>(2) FlowMap-OPD rollout</b> collects states with the student's native long-range map, \(x_{t_{i+1}}=\psi^{\theta}_{t_i\to t_{i+1}}(x_{t_i})\); no gradient flows through the rollout.</figcaption></figure>
    <figure><div class="plate"><img loading="lazy" src="assets/separation_overview_3.webp" width="1400" height="1010" alt="FlowMap-OPD supervision: a separately chosen Gaussian kernel compares student and teacher at the collected states."></div><figcaption><b>(3) FlowMap-OPD supervision.</b> At those states, a separately chosen Gaussian kernel compares student and teacher; its mean is built from the instantaneous velocity (ours), the flow map, or a map-induced velocity.</figcaption></figure>
   </div>
-  <div class="twocol">
-   <div>
-    <h3>Rollout–kernel separation</h3>
-    <p>The OPD objective is a sum of local comparisons, so its expectation depends on the rollout only through the state marginals at the comparison times. The rollout can therefore collect states with the student's native few-step sampler, while a separately chosen kernel compares student and teacher there. The kernel that compares student and teacher need not be the transition that collected the states.</p>
-   </div>
-   <div>
-    <h3>Decoupled velocity supervision</h3>
-    <p>A flow-map network offers three quantities to compare: the flow map, velocities induced from it, and the instantaneous velocity. FlowMap-OPD matches the teacher's instantaneous velocity and links it to the map by a consistency penalty with its own weight \(\lambda_c\). The penalty propagates the supervision of the instantaneous velocity to the long-range map the student samples with.</p>
-   </div>
-  </div>
-  <div class="tbl narrowtbl">
+  <details class="fold mid">
+   <summary>Method details</summary>
+   <h3>Rollout–kernel separation</h3>
+   <p>The OPD objective is a sum of local comparisons, so its expectation depends on the rollout only through the state marginals at the comparison times. The rollout can therefore collect states with the student's native few-step sampler, while a separately chosen kernel compares student and teacher there. The kernel that compares student and teacher need not be the transition that collected the states.</p>
+   <h3>Decoupled velocity supervision</h3>
+   <p>A flow-map network offers three quantities to compare: the flow map, velocities induced from it, and the instantaneous velocity. FlowMap-OPD matches the teacher's instantaneous velocity and links it to the map by a consistency penalty with its own weight \(\lambda_c\). The penalty propagates the supervision of the instantaneous velocity to the long-range map the student samples with.</p>
+    <div class="tbl">
    <p class="cap">Only decoupled velocity supervision weights consistency separately. All are Gaussian-kernel KLs.</p>
     <div class="tscroll"><table>
     <thead><tr><th scope="col">Supervision</th><th scope="col">Student</th><th scope="col">Teacher</th><th scope="col">Consistency</th></tr></thead>
@@ -131,6 +148,7 @@
     </tbody>
    </table></div>
   </div>
+  </details>
  </div>
 </section>
 
@@ -142,7 +160,38 @@
   </div>
 
   <h3 class="sub">One student matches three specialists</h3>
-  <p class="lead">An OCR teacher, a PickScore teacher, and a GenEval teacher are consolidated into one native few-step student. The same student checkpoint acquires all three specialist capabilities in 300 updates.</p>
+  <p class="lead">An OCR teacher, a PickScore teacher, and a GenEval teacher are consolidated into one native few-step student in 300 updates.</p>
+  <figure class="chart scrollx">
+   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/consolidation_gain_dark.svg"><img loading="lazy" src="assets/fig/consolidation_gain_light.svg" width="1240" height="410" alt="Share of each specialist's gain over the base: the FLUX student during distillation passes 100% for OCR and PickScore; on FLUX.1 and SD3.5 the distilled student sits at the specialist level on all three tasks, the reward-trained and merged models below it."></picture>
+   <figcaption><b>One distilled student reaches the specialists on every task; reward-trained and merged models do not.</b> Axes show the share of a specialist's gain over the base. Left: the FLUX student during distillation. Middle, right: final task scores on FLUX.1 and SD3.5.</figcaption>
+  </figure>
+
+  <h3 class="sub">Distillation against reward training</h3>
+  <p class="lead">In a two-reward experiment, FlowMap-GRPO flattens below both specialists by update 1,400, while the distilled student is above both at update 300.</p>
+  <figure class="chart mid scrollx">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/two_teacher_grpo_dark.svg"><img loading="lazy" src="assets/fig/two_teacher_grpo_light.svg" width="880" height="420" alt="OCR accuracy and PickScore against training update: two-teacher FlowMap-OPD passes both specialists by update 300 (OCR 0.863, PickScore 23.17); FlowMap-GRPO stays below them through update 1,400."></picture>
+    <figcaption><b>Distillation passes both specialists by update 300; reward training stays below them.</b> EMA OCR and PickScore of two-teacher FlowMap-OPD and FlowMap-GRPO with reward weights 0.5/0.5; dashed lines are the specialists.</figcaption>
+   </figure>
+
+  <h3 class="sub">Which quantity should the teacher supervise?</h3>
+  <p class="lead">On ImageNet, with XL/2 MeanFlow teachers distilled into B/2 students, decoupled velocity supervision transfers best and flow-map supervision transfers worst.</p>
+  <figure class="chart mid scrollx">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/mechanism_curves_dark.svg"><img loading="lazy" src="assets/fig/mechanism_curves_light.svg" width="880" height="450" alt="FID of B/2 students under the MMD teacher. During distillation with K=3 the decoupled-velocity student with consistency weight 0.01 stays near 18, source-induced near 20, velocity without consistency drifts back to the base at 22.7, and map supervision is above the base. Sampled with K = 3, 4, 7, 15, the chosen form is stable near 18.">
+    </picture>
+    <figcaption><b>Velocity supervision improves the student, and consistency carries the gain to the few-step map</b> (MMD teacher). Left: students during distillation, sampled with \(K=3\). Right: the epoch-300 checkpoints sampled with different \(K\).</figcaption>
+   </figure>
+  <figure class="chart wide scrollx">
+   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/imagenet_three_rewards_dark.svg"><img loading="lazy" src="assets/fig/imagenet_three_rewards_light.svg" width="1375" height="460" alt="Training curves of B/2 students under the MMD, classifier and DINO teacher rewards for six supervision configurations, with the XL/2 teacher and B/2 base as horizontal lines."></picture>
+   <figcaption><b>Cross-capacity transfer under three teacher rewards.</b> MMD-setting FID, classifier target log-probability, and DINO cosine similarity of B/2 students under native generation with \(K=3\), for representative configurations of each supervision choice. Dashed lines are the frozen XL/2 teachers.</figcaption>
+  </figure>
+  <figure class="chart small">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/consistency_monitor_dark.svg"><img loading="lazy" src="assets/fig/consistency_monitor_light.svg" width="600" height="460" alt="Consistency residual falls from 0.80 to 0.18 and the error to the teacher map rises as the consistency weight grows from 0 to 1; the chosen weight is 0.001."></picture>
+    <figcaption><b>A large \(\lambda_c\) lowers the consistency residual and raises the map error.</b> Source residual (solid, left axis) and error to the teacher map (dashed, right axis) at update 200, text-to-image.</figcaption>
+   </figure>
+
+  <details class="fold">
+   <summary>Tables</summary>
+   <h3>One student matches three specialists</h3>
   <div class="tblgrid">
    <div class="tbl">
     <p class="cap"><b>FLUX.1-lite-8B</b>, \(K=4\), update 300, \(\lambda_c=0.001\). Task scores, higher is better.</p>
@@ -187,27 +236,8 @@
     </table></div>
    </div>
   </div>
-  <figure class="chart scrollx">
-   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/consolidation_gain_dark.svg"><img loading="lazy" src="assets/fig/consolidation_gain_light.svg" width="1240" height="410" alt="Share of each specialist's gain over the base: the FLUX student during distillation passes 100% for OCR and PickScore; on FLUX.1 and SD3.5 the distilled student sits at the specialist level on all three tasks, the reward-trained and merged models below it."></picture>
-   <figcaption><b>One distilled student reaches the specialists on every task; reward-trained and merged models do not.</b> Axes show the share of a specialist's gain over the base. Left: the FLUX student during distillation. Middle, right: final task scores of the two tables.</figcaption>
-  </figure>
-
-  <h3 class="sub">Distillation against reward training</h3>
-  <div class="split">
-   <div>
-    <p>FlowMap-GRPO and MeanFlowNFT train one model directly on the three rewards with the same flow-map backbone and prompt mixture, each given the rollout budget of 1,500 GRPO updates (750 rounds of 1,152 rollouts, against 150 for FlowMap-OPD). Both joint models trail each specialist on its own task on FLUX and SD3.5: one model optimized on several rewards trades them against each other, whereas each teacher in OPD supervises only its own task.</p>
-    <p>In a two-reward experiment, FlowMap-GRPO flattens below both specialists by update 1,400, while the distilled student is above both at update 300.</p>
-   </div>
-   <figure class="chart">
-    <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/two_teacher_grpo_dark.svg"><img loading="lazy" src="assets/fig/two_teacher_grpo_light.svg" width="880" height="420" alt="OCR accuracy and PickScore against training update: two-teacher FlowMap-OPD passes both specialists by update 300 (OCR 0.863, PickScore 23.17); FlowMap-GRPO stays below them through update 1,400."></picture>
-    <figcaption><b>Distillation passes both specialists by update 300; reward training stays below them.</b> EMA OCR and PickScore of two-teacher FlowMap-OPD and FlowMap-GRPO with reward weights 0.5/0.5; dashed lines are the specialists.</figcaption>
-   </figure>
-  </div>
-
-  <h3 class="sub">Which quantity should the teacher supervise?</h3>
-  <p class="lead">On ImageNet, XL/2 MeanFlow teachers are distilled into B/2 students with the same native rollout and number of optimization steps. Decoupled velocity supervision transfers best, and flow-map supervision, although it targets the object used at inference, transfers worst.</p>
-  <div class="split rev">
-   <div class="tbl">
+   <h3>Which quantity should the teacher supervise?</h3>
+   <div class="tbl mid">
     <p class="cap">XL/2-to-B/2 students at epoch 300 with native \(K=3\) sampling. Each reward is a separate teacher and student, evaluated with that teacher's metric. Among students: best in bold.</p>
     <div class="tscroll"><table>
      <thead>
@@ -231,24 +261,12 @@
      </tbody>
     </table></div>
    </div>
-   <div class="stack">
-   <figure class="chart">
-    <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/mechanism_curves_dark.svg"><img loading="lazy" src="assets/fig/mechanism_curves_light.svg" width="880" height="450" alt="FID of B/2 students under the MMD teacher. During distillation with K=3 the decoupled-velocity student with consistency weight 0.01 stays near 18, source-induced near 20, velocity without consistency drifts back to the base at 22.7, and map supervision is above the base. Sampled with K = 3, 4, 7, 15, the chosen form is stable near 18.">
-    </picture>
-    <figcaption><b>Velocity supervision improves the student, and consistency carries the gain to the few-step map</b> (MMD teacher). Left: students during distillation, sampled with \(K=3\). Right: the epoch-300 checkpoints sampled with different \(K\).</figcaption>
-   </figure>
-   <figure class="chart small">
-    <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/consistency_monitor_dark.svg"><img loading="lazy" src="assets/fig/consistency_monitor_light.svg" width="600" height="460" alt="Consistency residual falls from 0.80 to 0.18 and the error to the teacher map rises as the consistency weight grows from 0 to 1; the chosen weight is 0.001."></picture>
-    <figcaption><b>A large \(\lambda_c\) lowers the consistency residual and raises the map error.</b> Source residual (solid, left axis) and error to the teacher map (dashed, right axis) at update 200, text-to-image.</figcaption>
-   </figure>
-   </div>
-  </div>
-  <figure class="chart wide scrollx">
-   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/fig/imagenet_three_rewards_dark.svg"><img loading="lazy" src="assets/fig/imagenet_three_rewards_light.svg" width="1375" height="460" alt="Training curves of B/2 students under the MMD, classifier and DINO teacher rewards for six supervision configurations, with the XL/2 teacher and B/2 base as horizontal lines."></picture>
-   <figcaption><b>Cross-capacity transfer under three teacher rewards.</b> MMD-setting FID, classifier target log-probability, and DINO cosine similarity of B/2 students under native generation with \(K=3\), for representative configurations of each supervision choice. Dashed lines are the frozen XL/2 teachers.</figcaption>
-  </figure>
-
-  <h3 class="sub">What rollout–kernel separation provides</h3>
+   <h3>What rollout–kernel separation provides</h3>
+  <ul class="points">
+   <li><b>Training rollouts are short.</b> A \(K=4\) rollout takes five network evaluations, and students trained with \(K=3\) or \(K=2\) rollouts match the \(K=4\) student.</li>
+   <li><b>Any teacher with a velocity.</b> With the public multi-step Flow-GRPO specialists as teachers, FlowMap-OPD trains a few-step student with five evaluations per rollout; Flow-OPD with the same teachers spends twenty.</li>
+   <li><b>Students from multi-step models.</b> Initialized from the multi-step SD3.5-Medium weights with an added second time input, the student comes close to the few-step student in 300 updates.</li>
+  </ul>
   <div class="tblgrid">
    <div class="tbl tight">
     <p class="cap"><b>Fewer rollout jumps suffice.</b> SD3.5-Medium, update 300, sampled with <span class="nw">\(K=4\);</span> NFE per rollout, time to collect 1,152 rollouts (8 H100).</p>
@@ -280,51 +298,11 @@
     </table></div>
    </div>
   </div>
-  <ul class="points">
-   <li><b>Training rollouts are short.</b> A \(K=4\) rollout takes five network evaluations, and students trained with \(K=3\) or \(K=2\) rollouts match the \(K=4\) student.</li>
-   <li><b>Any teacher with a velocity.</b> With the public multi-step Flow-GRPO specialists as teachers, FlowMap-OPD trains a few-step student with five evaluations per rollout; Flow-OPD with the same teachers spends twenty.</li>
-   <li><b>Students from multi-step models.</b> Initialized from the multi-step SD3.5-Medium weights with an added second time input, the student comes close to the few-step student in 300 updates.</li>
-  </ul>
+  </details>
  </div>
 </section>
 
-<section id="gallery">
- <div class="wrap wide">
-  <div class="sechead">
-   <h2>Gallery</h2>
-   <p>Within a row, every model receives the same prompt, the same initial noise and the same few-step sampler. <span class="key gold">Gold</span> marks the specialist trained for the row's task, <span class="key green">green</span> the FlowMap-OPD student. Selected examples.</p>
-  </div>
-  <div class="controls">
-   <div class="seg" role="group" aria-label="Backbone">
-    <button type="button" data-bb="flux" aria-pressed="true">FLUX.1</button>
-    <button type="button" data-bb="sd35" aria-pressed="false">SD3.5-Medium</button>
-   </div>
-   <div class="seg" role="group" aria-label="Task">
-    <button type="button" data-task="ocr" aria-pressed="true">Text rendering</button>
-    <button type="button" data-task="pickscore" aria-pressed="false">Visual preference</button>
-    <button type="button" data-task="geneval" aria-pressed="false">Object relations</button>
-   </div>
-  </div>
-  <div class="viewer">
-   <div class="promptbar">
-    <p id="g-prompt" class="prompt" aria-live="polite"></p>
-    <p id="g-meta" class="meta"></p>
-   </div>
-   <div class="stage-scroll" tabindex="0" role="group" aria-label="Model outputs for the selected example">
-    <div id="g-stage" class="stage"></div>
-   </div>
-   <div class="strip">
-    <button type="button" class="arrowbtn" id="g-prev" aria-label="Previous example"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
-    <div id="g-thumbs" class="thumbs" role="group" aria-label="Examples"></div>
-    <button type="button" class="arrowbtn" id="g-next" aria-label="Next example"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
-   </div>
-  </div>
-  <p class="fine">Columns: the base, the three specialists and the FlowMap-OPD student. Images are the unmodified 512 × 512 outputs. Use ← → to step through examples; select an image to enlarge it.</p>
-  <noscript><p class="fine">Enable JavaScript to browse the examples.</p></noscript>
- </div>
-</section>
-
-<section class="band" id="related">
+<section id="related" class="slim">
  <div class="wrap narrow">
   <h2>Related project</h2>
   <a class="relcard" href="https://zhiqili-cg.github.io/FlowMap-GRPO-Project/">
