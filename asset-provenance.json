@@ -1,772 +1,1867 @@
-[
- {
-  "sample": "ocr_073_1701",
-  "model": "base",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/ocr_073_1701_base.webp"
- },
- {
-  "sample": "ocr_073_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/ocr_073_1701_teacher_ocr.webp"
- },
- {
-  "sample": "ocr_073_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/ocr_073_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "ocr_073_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/ocr_073_1701_teacher_geneval.webp"
- },
- {
-  "sample": "ocr_073_1701",
-  "model": "velocity",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/ocr_073_1701_velocity.webp"
- },
- {
-  "sample": "pickscore_493_1701",
-  "model": "base",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/pickscore_493_1701_base.webp"
- },
- {
-  "sample": "pickscore_493_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/pickscore_493_1701_teacher_ocr.webp"
- },
- {
-  "sample": "pickscore_493_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/pickscore_493_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "pickscore_493_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/pickscore_493_1701_teacher_geneval.webp"
- },
- {
-  "sample": "pickscore_493_1701",
-  "model": "velocity",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/pickscore_493_1701_velocity.webp"
- },
- {
-  "sample": "geneval_079_1701",
-  "model": "base",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/geneval_079_1701_base.webp"
- },
- {
-  "sample": "geneval_079_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/geneval_079_1701_teacher_ocr.webp"
- },
- {
-  "sample": "geneval_079_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/geneval_079_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "geneval_079_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/geneval_079_1701_teacher_geneval.webp"
- },
- {
-  "sample": "geneval_079_1701",
-  "model": "velocity",
-  "paper_figure": "capability_comparison",
-  "asset": "assets/geneval_079_1701_velocity.webp"
- },
- {
-  "sample": "ocr_927_1701",
-  "model": "base",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_927_1701_base.webp"
- },
- {
-  "sample": "ocr_927_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_927_1701_teacher_ocr.webp"
- },
- {
-  "sample": "ocr_927_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_927_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "ocr_927_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_927_1701_teacher_geneval.webp"
- },
- {
-  "sample": "ocr_927_1701",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_927_1701_velocity.webp"
- },
- {
-  "sample": "ocr_244_1701",
-  "model": "base",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_244_1701_base.webp"
- },
- {
-  "sample": "ocr_244_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_244_1701_teacher_ocr.webp"
- },
- {
-  "sample": "ocr_244_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_244_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "ocr_244_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_244_1701_teacher_geneval.webp"
- },
- {
-  "sample": "ocr_244_1701",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_244_1701_velocity.webp"
- },
- {
-  "sample": "ocr_498_1701",
-  "model": "base",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_498_1701_base.webp"
- },
- {
-  "sample": "ocr_498_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_498_1701_teacher_ocr.webp"
- },
- {
-  "sample": "ocr_498_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_498_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "ocr_498_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_498_1701_teacher_geneval.webp"
- },
- {
-  "sample": "ocr_498_1701",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_ocr_1",
-  "asset": "assets/ocr_498_1701_velocity.webp"
- },
- {
-  "sample": "ocr_320_2903",
-  "model": "base",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_320_2903_base.webp"
- },
- {
-  "sample": "ocr_320_2903",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_320_2903_teacher_ocr.webp"
- },
- {
-  "sample": "ocr_320_2903",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_320_2903_teacher_pickscore.webp"
- },
- {
-  "sample": "ocr_320_2903",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_320_2903_teacher_geneval.webp"
- },
- {
-  "sample": "ocr_320_2903",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_320_2903_velocity.webp"
- },
- {
-  "sample": "ocr_1016_2903",
-  "model": "base",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_1016_2903_base.webp"
- },
- {
-  "sample": "ocr_1016_2903",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_1016_2903_teacher_ocr.webp"
- },
- {
-  "sample": "ocr_1016_2903",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_1016_2903_teacher_pickscore.webp"
- },
- {
-  "sample": "ocr_1016_2903",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_1016_2903_teacher_geneval.webp"
- },
- {
-  "sample": "ocr_1016_2903",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_1016_2903_velocity.webp"
- },
- {
-  "sample": "ocr_123_2903",
-  "model": "base",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_123_2903_base.webp"
- },
- {
-  "sample": "ocr_123_2903",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_123_2903_teacher_ocr.webp"
- },
- {
-  "sample": "ocr_123_2903",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_123_2903_teacher_pickscore.webp"
- },
- {
-  "sample": "ocr_123_2903",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_123_2903_teacher_geneval.webp"
- },
- {
-  "sample": "ocr_123_2903",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_ocr_2",
-  "asset": "assets/ocr_123_2903_velocity.webp"
- },
- {
-  "sample": "pickscore_1992_1701",
-  "model": "base",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1992_1701_base.webp"
- },
- {
-  "sample": "pickscore_1992_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1992_1701_teacher_ocr.webp"
- },
- {
-  "sample": "pickscore_1992_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1992_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "pickscore_1992_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1992_1701_teacher_geneval.webp"
- },
- {
-  "sample": "pickscore_1992_1701",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1992_1701_velocity.webp"
- },
- {
-  "sample": "pickscore_1282_1701",
-  "model": "base",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1282_1701_base.webp"
- },
- {
-  "sample": "pickscore_1282_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1282_1701_teacher_ocr.webp"
- },
- {
-  "sample": "pickscore_1282_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1282_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "pickscore_1282_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1282_1701_teacher_geneval.webp"
- },
- {
-  "sample": "pickscore_1282_1701",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_pickscore_1",
-  "asset": "assets/pickscore_1282_1701_velocity.webp"
- },
- {
-  "sample": "pickscore_292_2903",
-  "model": "base",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_292_2903_base.webp"
- },
- {
-  "sample": "pickscore_292_2903",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_292_2903_teacher_ocr.webp"
- },
- {
-  "sample": "pickscore_292_2903",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_292_2903_teacher_pickscore.webp"
- },
- {
-  "sample": "pickscore_292_2903",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_292_2903_teacher_geneval.webp"
- },
- {
-  "sample": "pickscore_292_2903",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_292_2903_velocity.webp"
- },
- {
-  "sample": "pickscore_317_2903",
-  "model": "base",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_317_2903_base.webp"
- },
- {
-  "sample": "pickscore_317_2903",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_317_2903_teacher_ocr.webp"
- },
- {
-  "sample": "pickscore_317_2903",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_317_2903_teacher_pickscore.webp"
- },
- {
-  "sample": "pickscore_317_2903",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_317_2903_teacher_geneval.webp"
- },
- {
-  "sample": "pickscore_317_2903",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_317_2903_velocity.webp"
- },
- {
-  "sample": "pickscore_2027_2903",
-  "model": "base",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_2027_2903_base.webp"
- },
- {
-  "sample": "pickscore_2027_2903",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_2027_2903_teacher_ocr.webp"
- },
- {
-  "sample": "pickscore_2027_2903",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_2027_2903_teacher_pickscore.webp"
- },
- {
-  "sample": "pickscore_2027_2903",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_2027_2903_teacher_geneval.webp"
- },
- {
-  "sample": "pickscore_2027_2903",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_pickscore_2",
-  "asset": "assets/pickscore_2027_2903_velocity.webp"
- },
- {
-  "sample": "geneval_244_1701",
-  "model": "base",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_244_1701_base.webp"
- },
- {
-  "sample": "geneval_244_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_244_1701_teacher_ocr.webp"
- },
- {
-  "sample": "geneval_244_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_244_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "geneval_244_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_244_1701_teacher_geneval.webp"
- },
- {
-  "sample": "geneval_244_1701",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_244_1701_velocity.webp"
- },
- {
-  "sample": "geneval_498_1701",
-  "model": "base",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_498_1701_base.webp"
- },
- {
-  "sample": "geneval_498_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_498_1701_teacher_ocr.webp"
- },
- {
-  "sample": "geneval_498_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_498_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "geneval_498_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_498_1701_teacher_geneval.webp"
- },
- {
-  "sample": "geneval_498_1701",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_498_1701_velocity.webp"
- },
- {
-  "sample": "geneval_320_1701",
-  "model": "base",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_320_1701_base.webp"
- },
- {
-  "sample": "geneval_320_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_320_1701_teacher_ocr.webp"
- },
- {
-  "sample": "geneval_320_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_320_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "geneval_320_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_320_1701_teacher_geneval.webp"
- },
- {
-  "sample": "geneval_320_1701",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_geneval_1",
-  "asset": "assets/geneval_320_1701_velocity.webp"
- },
- {
-  "sample": "geneval_123_2903",
-  "model": "base",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_123_2903_base.webp"
- },
- {
-  "sample": "geneval_123_2903",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_123_2903_teacher_ocr.webp"
- },
- {
-  "sample": "geneval_123_2903",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_123_2903_teacher_pickscore.webp"
- },
- {
-  "sample": "geneval_123_2903",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_123_2903_teacher_geneval.webp"
- },
- {
-  "sample": "geneval_123_2903",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_123_2903_velocity.webp"
- },
- {
-  "sample": "geneval_073_2903",
-  "model": "base",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_073_2903_base.webp"
- },
- {
-  "sample": "geneval_073_2903",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_073_2903_teacher_ocr.webp"
- },
- {
-  "sample": "geneval_073_2903",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_073_2903_teacher_pickscore.webp"
- },
- {
-  "sample": "geneval_073_2903",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_073_2903_teacher_geneval.webp"
- },
- {
-  "sample": "geneval_073_2903",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_073_2903_velocity.webp"
- },
- {
-  "sample": "geneval_079_2903",
-  "model": "base",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_079_2903_base.webp"
- },
- {
-  "sample": "geneval_079_2903",
-  "model": "teacher_ocr",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_079_2903_teacher_ocr.webp"
- },
- {
-  "sample": "geneval_079_2903",
-  "model": "teacher_pickscore",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_079_2903_teacher_pickscore.webp"
- },
- {
-  "sample": "geneval_079_2903",
-  "model": "teacher_geneval",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_079_2903_teacher_geneval.webp"
- },
- {
-  "sample": "geneval_079_2903",
-  "model": "velocity",
-  "paper_figure": "paired_gallery_geneval_2",
-  "asset": "assets/geneval_079_2903_velocity.webp"
- },
- {
-  "sample": "pickscore_1656_1701",
-  "model": "base",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/pickscore_1656_1701_base.webp"
- },
- {
-  "sample": "pickscore_1656_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/pickscore_1656_1701_teacher_ocr.webp"
- },
- {
-  "sample": "pickscore_1656_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/pickscore_1656_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "pickscore_1656_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/pickscore_1656_1701_teacher_geneval.webp"
- },
- {
-  "sample": "pickscore_1656_1701",
-  "model": "velocity",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/pickscore_1656_1701_velocity.webp"
- },
- {
-  "sample": "geneval_506_1701",
-  "model": "base",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/geneval_506_1701_base.webp"
- },
- {
-  "sample": "geneval_506_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/geneval_506_1701_teacher_ocr.webp"
- },
- {
-  "sample": "geneval_506_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/geneval_506_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "geneval_506_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/geneval_506_1701_teacher_geneval.webp"
- },
- {
-  "sample": "geneval_506_1701",
-  "model": "velocity",
-  "paper_figure": "specialist_comparison_2",
-  "asset": "assets/geneval_506_1701_velocity.webp"
- },
- {
-  "sample": "ocr_079_1701",
-  "model": "base",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/ocr_079_1701_base.webp"
- },
- {
-  "sample": "ocr_079_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/ocr_079_1701_teacher_ocr.webp"
- },
- {
-  "sample": "ocr_079_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/ocr_079_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "ocr_079_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/ocr_079_1701_teacher_geneval.webp"
- },
- {
-  "sample": "ocr_079_1701",
-  "model": "velocity",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/ocr_079_1701_velocity.webp"
- },
- {
-  "sample": "pickscore_1480_1701",
-  "model": "base",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/pickscore_1480_1701_base.webp"
- },
- {
-  "sample": "pickscore_1480_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/pickscore_1480_1701_teacher_ocr.webp"
- },
- {
-  "sample": "pickscore_1480_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/pickscore_1480_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "pickscore_1480_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/pickscore_1480_1701_teacher_geneval.webp"
- },
- {
-  "sample": "pickscore_1480_1701",
-  "model": "velocity",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/pickscore_1480_1701_velocity.webp"
- },
- {
-  "sample": "geneval_414_1701",
-  "model": "base",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/geneval_414_1701_base.webp"
- },
- {
-  "sample": "geneval_414_1701",
-  "model": "teacher_ocr",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/geneval_414_1701_teacher_ocr.webp"
- },
- {
-  "sample": "geneval_414_1701",
-  "model": "teacher_pickscore",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/geneval_414_1701_teacher_pickscore.webp"
- },
- {
-  "sample": "geneval_414_1701",
-  "model": "teacher_geneval",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/geneval_414_1701_teacher_geneval.webp"
- },
- {
-  "sample": "geneval_414_1701",
-  "model": "velocity",
-  "paper_figure": "specialist_comparison_3",
-  "asset": "assets/geneval_414_1701_velocity.webp"
- },
- {
-  "asset": "assets/separation_overview_1.webp",
-  "paper_figure": "separation_overview_1",
-  "note": "Figure 2 panel"
- },
- {
-  "asset": "assets/separation_overview_2.webp",
-  "paper_figure": "separation_overview_2",
-  "note": "Figure 2 panel"
- },
- {
-  "asset": "assets/separation_overview_3.webp",
-  "paper_figure": "separation_overview_3",
-  "note": "Figure 2 panel"
- },
- {
-  "asset": "assets/two_teacher_grpo_comparison.webp",
-  "paper_figure": "two_teacher_grpo_comparison",
-  "note": "two-teacher OPD vs. mixed-reward Flow-Map GRPO"
+{
+ "paper": "FlowMap-OPD: On-Policy Distillation for Few-Step Flow-Map Generators, arXiv:2609.37851 (preprint source: Flowmap_OPD_arxiv/main.tex)",
+ "text_and_numbers": {
+  "abstract, method paragraphs, captions": "main.tex (abstract, Sections 1, 3, 4, 5) and appendices/{baselines,imagenet,diagnostics}.tex",
+  "stat tiles": "abstract and contributions list of main.tex (3 specialists, 300 updates, OCR 0.883 vs 0.850 on FLUX, ImageNet FID 22.68 to 18.23)",
+  "FLUX.1 table": "Table tab:three-teacher, task-score columns",
+  "SD3.5 table": "Table tab:three-teacher-sd, task-score columns",
+  "ImageNet table": "sections/imagenet_selected_table.tex (Table tab:imagenet)",
+  "rollout table": "Table tab:rollout",
+  "multi-step table": "Table tab:multistep-teachers",
+  "supervision table": "Table tab:interfaces"
+ },
+ "figures": [
+  {
+   "asset": "assets/teaser.webp",
+   "source": "Flowmap_OPD_arxiv/figures/flowmap_opd_teaser_v2.jpg",
+   "paper_figure": "fig:teaser",
+   "edit": "re-encoded as WebP"
+  },
+  {
+   "asset": "assets/og.jpg",
+   "source": "Flowmap_OPD_arxiv/figures/flowmap_opd_teaser_v2.jpg",
+   "edit": "resized to 1200 px wide for link previews"
+  },
+  {
+   "asset": "assets/separation_overview_1.webp",
+   "source": "Flowmap_OPD_arxiv/figures/separation_overview_1.pdf",
+   "paper_figure": "fig:separation",
+   "edit": "rasterized at 1400 px wide (PyMuPDF)"
+  },
+  {
+   "asset": "assets/separation_overview_2.webp",
+   "source": "Flowmap_OPD_arxiv/figures/separation_overview_2.pdf",
+   "paper_figure": "fig:separation",
+   "edit": "rasterized at 1400 px wide (PyMuPDF)"
+  },
+  {
+   "asset": "assets/separation_overview_3.webp",
+   "source": "Flowmap_OPD_arxiv/figures/separation_overview_3.pdf",
+   "paper_figure": "fig:separation",
+   "edit": "rasterized at 1400 px wide (PyMuPDF)"
+  }
+ ],
+ "charts": {
+  "generator": "tools/make_charts.py (light and dark SVG per chart; same data and encodings as the paper's plotting scripts in Flowmap_OPD/figures/plot_src)",
+  "assets/fig/consolidation_gain_*.svg": "consolidation_gain.py, fig:consolidation-gain; values of the two three-teacher tables and the FLUX student's EMA evaluations",
+  "assets/fig/mechanism_curves_*.svg": "mechanism_curves.py, fig:mechanism",
+  "assets/fig/two_teacher_grpo_*.svg": "two_teacher_grpo.py, fig:two-teacher-grpo; data resolved once from /mnt/data/zhiqili/wm_post-training/setup/plot_data into tools/data/two_teacher_grpo.json",
+  "assets/fig/imagenet_three_rewards_*.svg": "imagenet_three_rewards.py (first figure), fig:imagenet-design-selection; tools/data/imagenet_three_rewards.json",
+  "assets/fig/consistency_monitor_*.svg": "consistency_monitor.py, fig:consistency-monitor"
+ },
+ "gallery": {
+  "generator": "tools/build_gallery.py",
+  "selection": "Selected examples. FLUX.1: chosen by eye among the 66 paired samples. SD3.5: chosen by eye among the samples that pass the recorded-score rule of their task.",
+  "processing": "each tile is the full 512x512 output re-encoded as WebP (quality 84); thumbnails are 120 px copies of the student image; no crop, no retouching",
+  "models": {
+   "flux": {
+    "base": "FLUX.1-lite-8B MeanFlow base",
+    "ocr/pick/geneval": "FlowMap-GRPO specialists",
+    "grpo": "FlowMap-GRPO on three rewards, EMA update 1500 (tr3_pfs_fx)",
+    "nft": "MeanFlowNFT on three rewards, EMA update 750 (tr3_mfn_fx)",
+    "opd": "FlowMap-OPD student, EMA update 300; lambda_c per example in student_checkpoint"
+   },
+   "sd35": {
+    "base": "base",
+    "ocr": "txt1000",
+    "pick": "pref1500",
+    "geneval": "comp1220",
+    "grpo": "tr3_1500",
+    "nft": "tr3_mfn750",
+    "opd": "t3d300"
+   }
+  },
+  "sd35_rules": {
+   "ocr": "OCR reward of the OCR teacher and of the student >= 0.999 on this sample",
+   "geneval": "GenEval accuracy of the GenEval teacher and of the student = 1 on this sample",
+   "pickscore": "PickScore: teacher >= base + 1.0, student >= teacher - 0.3 and student >= both models trained on the three rewards"
+  },
+  "wall": "student tiles reuse the gallery images listed below",
+  "flux": [
+   {
+    "id": "ocr_073_1701",
+    "task": "ocr",
+    "prompt_id": "ocr_073",
+    "seed": 1701,
+    "prompt": "A close-up of a vintage seed packet, labeled \"Magic Beans Inside\", lying on a rustic wooden table, with a pair of old gardening gloves and a spade resting nearby, surrounded by lush green plants and flowers in a sunlit garden.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_073_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_073_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_073_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_073_1701/teacher_geneval.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out/ocr_073_1701_grpo3.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out/ocr_073_1701_mfnft3.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/ocr_073_1701_velocity.png"
+    }
+   },
+   {
+    "id": "ocr_244_1701",
+    "task": "ocr",
+    "prompt_id": "ocr_244",
+    "seed": 1701,
+    "prompt": "A vintage movie poster featuring the title text \"Dersu Uzala\" in elegant, bold letters, set against a backdrop of a serene, snow-covered forest. The scene captures the essence of a deep, contemplative journey through nature, with subtle hues of blue and white.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_244_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_244_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_244_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_244_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/ocr_244_1701_velocity.png"
+    }
+   },
+   {
+    "id": "ocr_079_1701",
+    "task": "ocr",
+    "prompt_id": "ocr_079",
+    "seed": 1701,
+    "prompt": "A classroom scene with a teacher placing a golden \"Math Star\" sticker on a student's notebook, surrounded by math books and charts, capturing the moment of achievement and pride.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_079_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_079_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_079_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_079_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/ocr_079_1701_velocity.png"
+    }
+   },
+   {
+    "id": "ocr_1016_2903",
+    "task": "ocr",
+    "prompt_id": "ocr_1016",
+    "seed": 2903,
+    "prompt": "A futuristic spaceship cockpit with a digital screen displaying \"Fuel Low\" warning, set against the backdrop of a star-studded galaxy, with control panels and futuristic interfaces around.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_1016_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_1016_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_1016_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_1016_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/ocr_1016_2903_velocity.png"
+    }
+   },
+   {
+    "id": "ocr_123_2903",
+    "task": "ocr",
+    "prompt_id": "ocr_123",
+    "seed": 2903,
+    "prompt": "A chef stands in a bustling kitchen, wearing an apron embroidered with \"Kiss the Cook or Else\", preparing a gourmet dish while surrounded by steaming pots and fresh ingredients.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_123_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_123_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_123_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_123_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/ocr_123_2903_velocity.png"
+    }
+   },
+   {
+    "id": "ocr_320_2903",
+    "task": "ocr",
+    "prompt_id": "ocr_320",
+    "seed": 2903,
+    "prompt": "A cozy campsite at dusk, with a campfire blazing warmly. A package of marshmallows labeled \"Extra Gooey\" sits next to the fire, partially opened, revealing large, fluffy marshmallows ready for roasting. The scene is serene, with a gentle forest backdrop.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_320_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_320_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_320_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_320_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/ocr_320_2903_velocity.png"
+    }
+   },
+   {
+    "id": "ocr_927_1701",
+    "task": "ocr",
+    "prompt_id": "ocr_927",
+    "seed": 1701,
+    "prompt": "A realistic photograph of a modern doctor's office reception area, featuring a \"Please Wait Here\" sign prominently displayed on the desk, with comfortable seating and medical posters on the walls.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_927_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_927_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_927_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_927_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/ocr_927_1701_velocity.png"
+    }
+   },
+   {
+    "id": "ocr_370_1701",
+    "task": "ocr",
+    "prompt_id": "ocr_370",
+    "seed": 1701,
+    "prompt": "A close-up shot of a vibrant candy wrapper with the brand name \"Sweet Tooth Co\" prominently displayed, set against a soft, blurred background of a candy store shelf, capturing the playful and inviting atmosphere of the sweets.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_370_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_370_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_370_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_370_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_370_1701/velocity.png"
+    }
+   },
+   {
+    "id": "ocr_414_2903",
+    "task": "ocr",
+    "prompt_id": "ocr_414",
+    "seed": 2903,
+    "prompt": "\"World Tour 2025\" rock band poster featuring a vibrant, energetic scene with band members on stage, surrounded by a passionate crowd, colorful lights, and smoke effects, set against a backdrop of a world map highlighting cities of their tour.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_414_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_414_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_414_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_414_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_414_2903/velocity.png"
+    }
+   },
+   {
+    "id": "ocr_498_2903",
+    "task": "ocr",
+    "prompt_id": "ocr_498",
+    "seed": 2903,
+    "prompt": "A realistic photograph of an elevator emergency panel with clear instructions that read \"Call 911\", set against a modern, metallic interior with soft lighting highlighting the panel.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_498_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_498_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_498_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_498_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_498_2903/velocity.png"
+    }
+   },
+   {
+    "id": "ocr_506_1701",
+    "task": "ocr",
+    "prompt_id": "ocr_506",
+    "seed": 1701,
+    "prompt": "A close-up of a cooking show set, featuring a neatly organized ingredient list card prominently displaying \"Next Step Add Flour\" amidst a backdrop of kitchen utensils and a partially prepared dough.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_506_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_506_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_506_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_506_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_506_1701/velocity.png"
+    }
+   },
+   {
+    "id": "ocr_073_2903",
+    "task": "ocr",
+    "prompt_id": "ocr_073",
+    "seed": 2903,
+    "prompt": "A close-up of a vintage seed packet, labeled \"Magic Beans Inside\", lying on a rustic wooden table, with a pair of old gardening gloves and a spade resting nearby, surrounded by lush green plants and flowers in a sunlit garden.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_073_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_073_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_073_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_073_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_073_2903/velocity.png"
+    }
+   },
+   {
+    "id": "ocr_1016_1701",
+    "task": "ocr",
+    "prompt_id": "ocr_1016",
+    "seed": 1701,
+    "prompt": "A futuristic spaceship cockpit with a digital screen displaying \"Fuel Low\" warning, set against the backdrop of a star-studded galaxy, with control panels and futuristic interfaces around.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_1016_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_1016_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_1016_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_1016_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_1016_1701/velocity.png"
+    }
+   },
+   {
+    "id": "ocr_244_2903",
+    "task": "ocr",
+    "prompt_id": "ocr_244",
+    "seed": 2903,
+    "prompt": "A vintage movie poster featuring the title text \"Dersu Uzala\" in elegant, bold letters, set against a backdrop of a serene, snow-covered forest. The scene captures the essence of a deep, contemplative journey through nature, with subtle hues of blue and white.",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_244_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_244_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_244_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_244_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/ocr_244_2903/velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_493_1701",
+    "task": "pickscore",
+    "prompt_id": "pickscore_493",
+    "seed": 1701,
+    "prompt": "an anthropomorphic grey wolf, medieval, adventurer, dnd, town, rpg, rustic, fantasy, hd digital art",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_493_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_493_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_493_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_493_1701/teacher_geneval.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out/pickscore_493_1701_grpo3.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out/pickscore_493_1701_mfnft3.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/pickscore_493_1701_velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_1282_1701",
+    "task": "pickscore",
+    "prompt_id": "pickscore_1282",
+    "seed": 1701,
+    "prompt": "aerial view of a small tropical island with a nice beach and palm trees",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1282_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1282_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1282_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1282_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/pickscore_1282_1701_velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_1656_1701",
+    "task": "pickscore",
+    "prompt_id": "pickscore_1656",
+    "seed": 1701,
+    "prompt": "A photo of a orange tabby cat wearing a cowboy hat, full body",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1656_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1656_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1656_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1656_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/pickscore_1656_1701_velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_2027_2903",
+    "task": "pickscore",
+    "prompt_id": "pickscore_2027",
+    "seed": 2903,
+    "prompt": "Primordial fire bunny, By Wadim Kashin, Brian Froud and Miho Hirano, highly detailed",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_2027_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_2027_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_2027_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_2027_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/pickscore_2027_2903_velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_1480_1701",
+    "task": "pickscore",
+    "prompt_id": "pickscore_1480",
+    "seed": 1701,
+    "prompt": "back gustav royo ingle mother facing head towards wall recalling hardworking famine, Christian Krohg,melancholia",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1480_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1480_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1480_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1480_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/pickscore_1480_1701_velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_1992_1701",
+    "task": "pickscore",
+    "prompt_id": "pickscore_1992",
+    "seed": 1701,
+    "prompt": "A-team gmc 1982 van, black, red, grey, red alloy wheels",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1992_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1992_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1992_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1992_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/pickscore_1992_1701_velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_292_2903",
+    "task": "pickscore",
+    "prompt_id": "pickscore_292",
+    "seed": 2903,
+    "prompt": "strybk, Five christian people wearing purple religious robes with their head covered surrounded by pink flowers and with an open purple arch above. They are standing next to each other and looking at the viewer's direction. Spiritual scenery, heavenly heavenly sunshine beams divine bright soft focus holy in the clouds, kids story book style, muted colors, watercolor style",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_292_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_292_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_292_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_292_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/pickscore_292_2903_velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_1282_2903",
+    "task": "pickscore",
+    "prompt_id": "pickscore_1282",
+    "seed": 2903,
+    "prompt": "aerial view of a small tropical island with a nice beach and palm trees",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1282_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1282_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1282_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1282_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1282_2903/velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_2027_1701",
+    "task": "pickscore",
+    "prompt_id": "pickscore_2027",
+    "seed": 1701,
+    "prompt": "Primordial fire bunny, By Wadim Kashin, Brian Froud and Miho Hirano, highly detailed",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_2027_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_2027_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_2027_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_2027_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_2027_1701/velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_493_2903",
+    "task": "pickscore",
+    "prompt_id": "pickscore_493",
+    "seed": 2903,
+    "prompt": "an anthropomorphic grey wolf, medieval, adventurer, dnd, town, rpg, rustic, fantasy, hd digital art",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_493_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_493_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_493_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_493_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_493_2903/velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_1656_2903",
+    "task": "pickscore",
+    "prompt_id": "pickscore_1656",
+    "seed": 2903,
+    "prompt": "A photo of a orange tabby cat wearing a cowboy hat, full body",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1656_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1656_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1656_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1656_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1656_2903/velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_1992_2903",
+    "task": "pickscore",
+    "prompt_id": "pickscore_1992",
+    "seed": 2903,
+    "prompt": "A-team gmc 1982 van, black, red, grey, red alloy wheels",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1992_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1992_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1992_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1992_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_1992_2903/velocity.png"
+    }
+   },
+   {
+    "id": "pickscore_437_1701",
+    "task": "pickscore",
+    "prompt_id": "pickscore_437",
+    "seed": 1701,
+    "prompt": "A warning sign that has the text \"eh\"",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_437_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_437_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_437_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_437_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/pickscore_437_1701/velocity.png"
+    }
+   },
+   {
+    "id": "geneval_079_1701",
+    "task": "geneval",
+    "prompt_id": "geneval_079",
+    "seed": 1701,
+    "prompt": "a photo of a truck left of a refrigerator",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_079_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_079_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_079_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_079_1701/teacher_geneval.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out/geneval_079_1701_grpo3.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out/geneval_079_1701_mfnft3.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/geneval_079_1701_velocity.png"
+    }
+   },
+   {
+    "id": "geneval_320_1701",
+    "task": "geneval",
+    "prompt_id": "geneval_320",
+    "seed": 1701,
+    "prompt": "a photo of a baseball glove right of a bear",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_320_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_320_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_320_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_320_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/geneval_320_1701_velocity.png"
+    }
+   },
+   {
+    "id": "geneval_506_1701",
+    "task": "geneval",
+    "prompt_id": "geneval_506",
+    "seed": 1701,
+    "prompt": "a photo of a blue laptop and a brown bear",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_506_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_506_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_506_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_506_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/geneval_506_1701_velocity.png"
+    }
+   },
+   {
+    "id": "geneval_123_2903",
+    "task": "geneval",
+    "prompt_id": "geneval_123",
+    "seed": 2903,
+    "prompt": "a photo of a hair drier below an elephant",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_123_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_123_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_123_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_123_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/geneval_123_2903_velocity.png"
+    }
+   },
+   {
+    "id": "geneval_073_2903",
+    "task": "geneval",
+    "prompt_id": "geneval_073",
+    "seed": 2903,
+    "prompt": "a photo of a couch left of a toaster",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_073_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_073_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_073_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_073_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/geneval_073_2903_velocity.png"
+    }
+   },
+   {
+    "id": "geneval_414_1701",
+    "task": "geneval",
+    "prompt_id": "geneval_414",
+    "seed": 1701,
+    "prompt": "a photo of a black donut",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_414_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_414_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_414_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_414_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/geneval_414_1701_velocity.png"
+    }
+   },
+   {
+    "id": "geneval_498_1701",
+    "task": "geneval",
+    "prompt_id": "geneval_498",
+    "seed": 1701,
+    "prompt": "a photo of a car",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_498_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_498_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_498_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_498_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/geneval_498_1701_velocity.png"
+    }
+   },
+   {
+    "id": "geneval_079_2903",
+    "task": "geneval",
+    "prompt_id": "geneval_079",
+    "seed": 2903,
+    "prompt": "a photo of a truck left of a refrigerator",
+    "student_checkpoint": "update 300 EMA, lambda_c=0.001",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_079_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_079_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_079_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_079_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/setup/fig3_tr3/out_all/geneval_079_2903_velocity.png"
+    }
+   },
+   {
+    "id": "geneval_072_2903",
+    "task": "geneval",
+    "prompt_id": "geneval_072",
+    "seed": 2903,
+    "prompt": "a photo of a yellow bird and a black motorcycle",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_072_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_072_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_072_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_072_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_072_2903/velocity.png"
+    }
+   },
+   {
+    "id": "geneval_109_2903",
+    "task": "geneval",
+    "prompt_id": "geneval_109",
+    "seed": 2903,
+    "prompt": "a photo of a scissors and a bird",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_109_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_109_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_109_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_109_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_109_2903/velocity.png"
+    }
+   },
+   {
+    "id": "geneval_318_2903",
+    "task": "geneval",
+    "prompt_id": "geneval_318",
+    "seed": 2903,
+    "prompt": "a photo of a purple carrot",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_318_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_318_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_318_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_318_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_318_2903/velocity.png"
+    }
+   },
+   {
+    "id": "geneval_123_1701",
+    "task": "geneval",
+    "prompt_id": "geneval_123",
+    "seed": 1701,
+    "prompt": "a photo of a hair drier below an elephant",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_123_1701/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_123_1701/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_123_1701/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_123_1701/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_123_1701/velocity.png"
+    }
+   },
+   {
+    "id": "geneval_320_2903",
+    "task": "geneval",
+    "prompt_id": "geneval_320",
+    "seed": 2903,
+    "prompt": "a photo of a baseball glove right of a bear",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_320_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_320_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_320_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_320_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_320_2903/velocity.png"
+    }
+   },
+   {
+    "id": "geneval_506_2903",
+    "task": "geneval",
+    "prompt_id": "geneval_506",
+    "seed": 2903,
+    "prompt": "a photo of a blue laptop and a brown bear",
+    "student_checkpoint": "update 300 EMA, lambda_c=0",
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_506_2903/base.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_506_2903/teacher_ocr.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_506_2903/teacher_pickscore.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_506_2903/teacher_geneval.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/appx_gallery_src/qualitative/geneval_506_2903/velocity.png"
+    }
+   }
+  ],
+  "sd35": [
+   {
+    "id": "ocr_000964",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 964,
+    "seed": 1006,
+    "prompt": "A jewelry store display case, illuminated by soft, warm lighting, showcases a stunning engagement ring with a \"Carat Size 25\" label, reflecting elegance and luxury. The ring's large, sparkling diamond is the focal point, set against a velvet background.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 1.0,
+     "ocr": 1.0,
+     "pick": 0.273,
+     "geneval": 0.727,
+     "grpo": 0.364,
+     "nft": 0.727,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000964.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000964.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000964.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000964.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000964.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000964.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000964.png"
+    }
+   },
+   {
+    "id": "ocr_000065",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 65,
+    "seed": 107,
+    "prompt": "A marathon runner, wearing a bib numbered \"2024 Boston\", is captured mid-stride on a city street, with cheering spectators lining the route and the iconic Boston skyline in the background. The runner's determined expression and the vibrant atmosphere highlight the intensity of the race.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.0,
+     "ocr": 1.0,
+     "pick": 0.8,
+     "geneval": 0.2,
+     "grpo": 1.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000065.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000065.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000065.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000065.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000065.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000065.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000065.png"
+    }
+   },
+   {
+    "id": "ocr_000157",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 157,
+    "seed": 199,
+    "prompt": "A baking show contestant stands proudly in the kitchen, wearing an apron embroidered with \"Star Baker\". The warm, golden light from the overhead lamps highlights the intricate embroidery and the contestant's focused expression as they prepare a dessert.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.444,
+     "ocr": 1.0,
+     "pick": 0.333,
+     "geneval": 0.556,
+     "grpo": 0.889,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t0/000157.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t0/000157.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t0/000157.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t0/000157.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t0/000157.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t0/000157.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t0/000157.png"
+    }
+   },
+   {
+    "id": "ocr_000623",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 623,
+    "seed": 665,
+    "prompt": "An astronaut's patch featuring \"Mission Alpha\", set against the backdrop of a star-studded space, with Earth visible in the distance, detailed stitching, and metallic accents.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.0,
+     "ocr": 1.0,
+     "pick": 0.667,
+     "geneval": 0.0,
+     "grpo": 0.833,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000623.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000623.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000623.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000623.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000623.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000623.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000623.png"
+    }
+   },
+   {
+    "id": "ocr_000219",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 219,
+    "seed": 261,
+    "prompt": "A realistic forest scene with a wooden campfire warning sign that reads \"Beware of Bears\", surrounded by tall pine trees and a faint trail of smoke rising from a nearby campfire.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.154,
+     "ocr": 1.0,
+     "pick": 0.846,
+     "geneval": 0.077,
+     "grpo": 1.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000219.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000219.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000219.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000219.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000219.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000219.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000219.png"
+    }
+   },
+   {
+    "id": "ocr_000983",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 983,
+    "seed": 1025,
+    "prompt": "A carnival game booth titled \"Win Giant Panda\" features a large, plush panda as the grand prize. Bright, colorful lights illuminate the scene, and happy carnival-goers gather around, trying their luck at the game. The atmosphere is lively and festive.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.308,
+     "ocr": 1.0,
+     "pick": 0.462,
+     "geneval": 0.692,
+     "grpo": 1.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000983.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000983.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000983.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000983.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000983.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000983.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000983.png"
+    }
+   },
+   {
+    "id": "ocr_000512",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 512,
+    "seed": 554,
+    "prompt": "A vintage postcard with a retro-futuristic Martian landscape, featuring a rover and alien flora. The caption reads \"Greetings From Mars\" in elegant, old-fashioned lettering at the bottom of the card.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.412,
+     "ocr": 1.0,
+     "pick": 0.941,
+     "geneval": 0.353,
+     "grpo": 0.765,
+     "nft": 0.765,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000512.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000512.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000512.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000512.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000512.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000512.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000512.png"
+    }
+   },
+   {
+    "id": "ocr_000755",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 755,
+    "seed": 797,
+    "prompt": "A bustling medieval market street with a wizard's shop featuring an illuminated window sign that reads \"Love Potions 50% Off\". The shop is adorned with mystical decorations and colorful potions, drawing the attention of curious passersby.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.588,
+     "ocr": 1.0,
+     "pick": 0.353,
+     "geneval": 0.647,
+     "grpo": 0.882,
+     "nft": 0.824,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000755.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000755.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000755.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000755.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000755.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000755.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000755.png"
+    }
+   },
+   {
+    "id": "ocr_000011",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 11,
+    "seed": 53,
+    "prompt": "A hiking trail with a wooden signpost clearly displaying \"Private Property No Entry\", surrounded by dense, green foliage and a winding dirt path leading into the forest.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.591,
+     "ocr": 1.0,
+     "pick": 0.409,
+     "geneval": 0.409,
+     "grpo": 0.909,
+     "nft": 0.864,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000011.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000011.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000011.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000011.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000011.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000011.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000011.png"
+    }
+   },
+   {
+    "id": "ocr_000239",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 239,
+    "seed": 281,
+    "prompt": "A photograph of a scientist in a lab, wearing a white lab coat with a nametag that clearly reads \"Dr Fusion\", standing amidst various high-tech gadgets and experimental apparatus.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.0,
+     "ocr": 1.0,
+     "pick": 0.375,
+     "geneval": 0.375,
+     "grpo": 0.875,
+     "nft": 0.625,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000239.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000239.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000239.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000239.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000239.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000239.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000239.png"
+    }
+   },
+   {
+    "id": "ocr_000519",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 519,
+    "seed": 561,
+    "prompt": "A bustling medieval marketplace with a quaint shop adorned by a vibrant sign that reads \"Wands 50% Off\", attracting curious wizards and enchanted onlookers.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.0,
+     "ocr": 1.0,
+     "pick": 0.727,
+     "geneval": 0.273,
+     "grpo": 0.727,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000519.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000519.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000519.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000519.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000519.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000519.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000519.png"
+    }
+   },
+   {
+    "id": "ocr_000663",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 663,
+    "seed": 705,
+    "prompt": "A futuristic robot standing in a dimly lit room, its chest panel glowing with the words \"System Online\", casting a soft blue light around it.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.0,
+     "ocr": 1.0,
+     "pick": 0.5,
+     "geneval": 0.333,
+     "grpo": 1.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000663.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000663.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000663.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000663.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000663.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000663.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000663.png"
+    }
+   },
+   {
+    "id": "ocr_000462",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 462,
+    "seed": 504,
+    "prompt": "A cozy medieval tavern interior with a wooden sign hanging above the bar, displaying a hand-chalked menu that reads \"Dragon Wings 5 Gold Coins\" under a flickering candlelight.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.048,
+     "ocr": 1.0,
+     "pick": 0.381,
+     "geneval": 0.524,
+     "grpo": 1.0,
+     "nft": 0.952,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000462.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000462.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000462.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000462.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000462.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000462.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000462.png"
+    }
+   },
+   {
+    "id": "ocr_000321",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 321,
+    "seed": 363,
+    "prompt": "A close-up of a hiking boot imprint in mud, clearly spelling \"Trail Blazer Pro\", surrounded by fallen leaves and forest debris, capturing the essence of an adventurous trek through a lush, wet woodland.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.5,
+     "ocr": 1.0,
+     "pick": 0.0,
+     "geneval": 0.357,
+     "grpo": 0.786,
+     "nft": 0.929,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000321.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000321.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000321.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000321.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000321.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000321.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000321.png"
+    }
+   },
+   {
+    "id": "ocr_000371",
+    "task": "ocr",
+    "set": "OCR test set",
+    "index": 371,
+    "seed": 413,
+    "prompt": "A freshly baked bread loaf, its golden crust scored with the words \"Daily Special\" in an elegant, cursive script, sitting on a rustic wooden board in a cozy bakery, with steam gently rising from its surface.",
+    "score_name": "OCR reward",
+    "scores": {
+     "base": 0.583,
+     "ocr": 1.0,
+     "pick": 0.5,
+     "geneval": 0.667,
+     "grpo": 0.333,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_base/t0/000371.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_txt1000/t0/000371.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_pref1500/t0/000371.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_comp1220/t0/000371.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_1500/t0/000371.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_tr3_mfn750/t0/000371.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/b_t3d300/t0/000371.png"
+    }
+   },
+   {
+    "id": "pickscore_000456",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 456,
+    "seed": 498,
+    "prompt": "Rainbow coloured penguin.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 22.513,
+     "ocr": 21.156,
+     "pick": 26.137,
+     "geneval": 21.442,
+     "grpo": 22.983,
+     "nft": 24.25,
+     "opd": 25.966
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000456.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000456.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000456.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000456.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000456.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000456.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000456.png"
+    }
+   },
+   {
+    "id": "pickscore_000307",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 307,
+    "seed": 349,
+    "prompt": "Illustration of a mouse using a mushroom as an umbrella.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 25.732,
+     "ocr": 23.762,
+     "pick": 27.186,
+     "geneval": 24.939,
+     "grpo": 26.775,
+     "nft": 26.671,
+     "opd": 27.506
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000307.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000307.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000307.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000307.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000307.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000307.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000307.png"
+    }
+   },
+   {
+    "id": "pickscore_000035",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 35,
+    "seed": 77,
+    "prompt": "A panda making latte art.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 23.841,
+     "ocr": 22.596,
+     "pick": 26.274,
+     "geneval": 23.723,
+     "grpo": 25.71,
+     "nft": 25.153,
+     "opd": 26.555
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000035.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000035.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000035.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000035.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000035.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000035.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000035.png"
+    }
+   },
+   {
+    "id": "pickscore_000949",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 949,
+    "seed": 991,
+    "prompt": "A bicycle on top of a boat.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 24.152,
+     "ocr": 21.143,
+     "pick": 26.953,
+     "geneval": 23.684,
+     "grpo": 26.019,
+     "nft": 25.22,
+     "opd": 26.685
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000949.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000949.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000949.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000949.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000949.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000949.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000949.png"
+    }
+   },
+   {
+    "id": "pickscore_000170",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 170,
+    "seed": 212,
+    "prompt": "A tiger in a lab coat with a 1980s Miami vibe, turning a well oiled science content machine, digital art.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 23.914,
+     "ocr": 20.879,
+     "pick": 25.933,
+     "geneval": 22.373,
+     "grpo": 25.079,
+     "nft": 25.041,
+     "opd": 26.095
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000170.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000170.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000170.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000170.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000170.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000170.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000170.png"
+    }
+   },
+   {
+    "id": "pickscore_000835",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 835,
+    "seed": 877,
+    "prompt": "A fisheye lens view of a turtle sitting in a forest.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 24.444,
+     "ocr": 24.411,
+     "pick": 26.863,
+     "geneval": 24.306,
+     "grpo": 26.058,
+     "nft": 24.505,
+     "opd": 26.706
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000835.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000835.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000835.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000835.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000835.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000835.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000835.png"
+    }
+   },
+   {
+    "id": "pickscore_000178",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 178,
+    "seed": 220,
+    "prompt": "A pyramid made of falafel with a partial solar eclipse in the background.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 23.298,
+     "ocr": 21.618,
+     "pick": 25.909,
+     "geneval": 22.078,
+     "grpo": 25.386,
+     "nft": 23.719,
+     "opd": 26.054
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000178.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000178.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000178.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000178.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000178.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000178.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000178.png"
+    }
+   },
+   {
+    "id": "pickscore_000257",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 257,
+    "seed": 299,
+    "prompt": "A car playing soccer, digital art.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 23.306,
+     "ocr": 21.385,
+     "pick": 25.693,
+     "geneval": 23.842,
+     "grpo": 24.834,
+     "nft": 24.282,
+     "opd": 26.549
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000257.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000257.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000257.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000257.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000257.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000257.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000257.png"
+    }
+   },
+   {
+    "id": "pickscore_000503",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 503,
+    "seed": 545,
+    "prompt": "An illustration of a large red elephant sitting on a small blue mouse.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 23.606,
+     "ocr": 23.187,
+     "pick": 26.347,
+     "geneval": 22.815,
+     "grpo": 26.461,
+     "nft": 24.426,
+     "opd": 26.7
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000503.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000503.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000503.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000503.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000503.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000503.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000503.png"
+    }
+   },
+   {
+    "id": "pickscore_000182",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 182,
+    "seed": 224,
+    "prompt": "An oil painting of a couple in formal evening wear going home get caught in a heavy downpour with no umbrellas.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 22.914,
+     "ocr": 22.58,
+     "pick": 25.309,
+     "geneval": 23.013,
+     "grpo": 24.783,
+     "nft": 23.358,
+     "opd": 25.365
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000182.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000182.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000182.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000182.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000182.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000182.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000182.png"
+    }
+   },
+   {
+    "id": "pickscore_000829",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 829,
+    "seed": 871,
+    "prompt": "A yellow and black bus cruising through the rainforest.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 24.389,
+     "ocr": 24.147,
+     "pick": 26.015,
+     "geneval": 24.695,
+     "grpo": 25.745,
+     "nft": 24.417,
+     "opd": 25.931
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000829.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000829.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000829.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000829.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000829.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000829.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000829.png"
+    }
+   },
+   {
+    "id": "pickscore_000066",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 66,
+    "seed": 108,
+    "prompt": "An elephant under the sea.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 23.969,
+     "ocr": 23.605,
+     "pick": 25.261,
+     "geneval": 24.206,
+     "grpo": 25.45,
+     "nft": 23.759,
+     "opd": 25.638
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000066.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000066.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000066.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000066.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000066.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000066.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000066.png"
+    }
+   },
+   {
+    "id": "pickscore_000981",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 981,
+    "seed": 1023,
+    "prompt": "A white car and a red sheep.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 23.721,
+     "ocr": 24.456,
+     "pick": 25.639,
+     "geneval": 24.058,
+     "grpo": 25.192,
+     "nft": 25.095,
+     "opd": 25.853
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000981.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000981.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000981.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000981.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000981.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000981.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000981.png"
+    }
+   },
+   {
+    "id": "pickscore_000438",
+    "task": "pickscore",
+    "set": "DrawBench",
+    "index": 438,
+    "seed": 480,
+    "prompt": "An emoji of a baby panda wearing a red hat, green gloves, red shirt, and green pants.",
+    "score_name": "PickScore",
+    "scores": {
+     "base": 21.572,
+     "ocr": 21.426,
+     "pick": 24.843,
+     "geneval": 21.428,
+     "grpo": 24.536,
+     "nft": 23.839,
+     "opd": 25.285
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_base/images/000438.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_txt1000/images/000438.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_pref1500/images/000438.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_comp1220/images/000438.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_1500/images/000438.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_tr3_mfn750/images/000438.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_dbench_t3d300/images/000438.png"
+    }
+   },
+   {
+    "id": "geneval_000195",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 195,
+    "seed": 237,
+    "prompt": "a photo of a pizza right of a banana",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 0.0,
+     "nft": 0.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/000195.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/000195.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/000195.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/000195.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/000195.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/000195.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/000195.png"
+    }
+   },
+   {
+    "id": "geneval_002021",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 2021,
+    "seed": 2063,
+    "prompt": "a photo of a wine glass right of a hot dog",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 0.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/002021.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/002021.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/002021.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/002021.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/002021.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/002021.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/002021.png"
+    }
+   },
+   {
+    "id": "geneval_001360",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 1360,
+    "seed": 1402,
+    "prompt": "a photo of a cell phone left of a tennis racket",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 1.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/001360.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/001360.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/001360.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/001360.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/001360.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/001360.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/001360.png"
+    }
+   },
+   {
+    "id": "geneval_001652",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 1652,
+    "seed": 1694,
+    "prompt": "a photo of a tennis racket right of a spoon",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 0.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/001652.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/001652.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/001652.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/001652.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/001652.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/001652.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/001652.png"
+    }
+   },
+   {
+    "id": "geneval_001979",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 1979,
+    "seed": 2021,
+    "prompt": "a photo of a baseball glove right of a bear",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 0.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/001979.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/001979.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/001979.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/001979.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/001979.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/001979.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/001979.png"
+    }
+   },
+   {
+    "id": "geneval_001209",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 1209,
+    "seed": 1251,
+    "prompt": "a photo of a suitcase left of a banana",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 0.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/001209.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/001209.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/001209.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/001209.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/001209.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/001209.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/001209.png"
+    }
+   },
+   {
+    "id": "geneval_002201",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 2201,
+    "seed": 2243,
+    "prompt": "a photo of a knife right of a suitcase",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 0.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/002201.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/002201.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/002201.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/002201.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/002201.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/002201.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/002201.png"
+    }
+   },
+   {
+    "id": "geneval_000837",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 837,
+    "seed": 879,
+    "prompt": "a photo of a green teddy bear and a brown kite",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 1.0,
+     "nft": 0.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/000837.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/000837.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/000837.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/000837.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/000837.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/000837.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/000837.png"
+    }
+   },
+   {
+    "id": "geneval_000843",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 843,
+    "seed": 885,
+    "prompt": "a photo of a yellow bicycle and a red motorcycle",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 1.0,
+     "nft": 0.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/000843.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/000843.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/000843.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/000843.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/000843.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/000843.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/000843.png"
+    }
+   },
+   {
+    "id": "geneval_001142",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 1142,
+    "seed": 1184,
+    "prompt": "a photo of a blue tie and a pink dining table",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 0.0,
+     "nft": 0.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/001142.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/001142.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/001142.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/001142.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/001142.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/001142.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/001142.png"
+    }
+   },
+   {
+    "id": "geneval_002127",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 2127,
+    "seed": 2169,
+    "prompt": "a photo of an orange truck and a pink sink",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 1.0,
+     "geneval": 1.0,
+     "grpo": 0.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/002127.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/002127.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/002127.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/002127.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/002127.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/002127.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/002127.png"
+    }
+   },
+   {
+    "id": "geneval_001280",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 1280,
+    "seed": 1322,
+    "prompt": "a photo of a yellow broccoli",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 1.0,
+     "geneval": 1.0,
+     "grpo": 1.0,
+     "nft": 0.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/001280.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/001280.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/001280.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/001280.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/001280.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/001280.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/001280.png"
+    }
+   },
+   {
+    "id": "geneval_001022",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 1022,
+    "seed": 1064,
+    "prompt": "a photo of three suitcases",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 0.0,
+     "pick": 0.0,
+     "geneval": 1.0,
+     "grpo": 1.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/001022.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/001022.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/001022.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/001022.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/001022.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/001022.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/001022.png"
+    }
+   },
+   {
+    "id": "geneval_001359",
+    "task": "geneval",
+    "set": "GenEval test set",
+    "index": 1359,
+    "seed": 1401,
+    "prompt": "a photo of a white toilet and a red apple",
+    "score_name": "GenEval accuracy",
+    "scores": {
+     "base": 0.0,
+     "ocr": 1.0,
+     "pick": 1.0,
+     "geneval": 1.0,
+     "grpo": 1.0,
+     "nft": 1.0,
+     "opd": 1.0
+    },
+    "sources": {
+     "base": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/base/t2/001359.png",
+     "ocr": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/txt1000/t2/001359.png",
+     "pick": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/pref1500/t2/001359.png",
+     "geneval": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/comp1220/t2/001359.png",
+     "grpo": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_1500/t2/001359.png",
+     "nft": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/tr3_mfn750/t2/001359.png",
+     "opd": "/mnt/data/zhiqili/wm_post-training/wm_post-training_figsd/t3d300/t2/001359.png"
+    }
+   }
+  ]
  }
-]
+}
